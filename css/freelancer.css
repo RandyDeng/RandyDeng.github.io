@@ -66,6 +66,10 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+.img-resize {
+  width: 50%;
+  height: auto;
+}
 header {
   text-align: center;
   background: #18BC9C;
@@ -455,8 +459,8 @@ fieldset[disabled] .btn-success.active {
 }
 .scroll-top .btn {
   font-size: 20px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
   line-height: 28px;
 }
@@ -472,7 +476,7 @@ fieldset[disabled] .btn-success.active {
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2em;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
