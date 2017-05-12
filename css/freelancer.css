@@ -155,7 +155,7 @@ header .intro-text .skills {
 }
 @media (min-width: 500px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 5px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -167,7 +167,7 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 10px 0;
+    padding: 0px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -186,23 +186,26 @@ section.success {
 }
 @media (max-width: 500px) {
   section {
-    padding: 75px 0;
+    padding: 50px 0;
   }
   section.first {
-    padding-top: 75px;
+    padding-top: 50px;
   }
 }
-#portfolio .portfolio-item {
+#portfolio .portfolio-item,
+#portfolio2 .portfolio2-item {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link, 
+#portfolio2 .portfolio2-item .portfolio2-link {
   display: block;
   position: relative;
   max-width: 250px;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .caption {
+#portfolio .portfolio-item .portfolio-link .caption,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2 {
   background: rgba(24, 188, 156, 0.9);
   position: absolute;
   width: 100%;
@@ -212,27 +215,53 @@ section.success {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+#portfolio .portfolio-item .portfolio-link .caption:hover,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2:hover {
+  opacity: 0.9;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#portfolio .portfolio-item .caption-content,
+#portfolio2 .portfolio2-item .caption2-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 40px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin-top: -12px;
+  color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2 .caption2-content {
   position: absolute;
   width: 100%;
   height: 20px;
   font-size: 20px;
   text-align: center;
-  top: 50%;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
   margin-top: -12px;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2 .caption2-content i {
   margin-top: -12px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2 .caption2-content h3,
+#portfolio2 .portfolio2-item .portfolio2-link .caption2 .caption2-content h4 {
   margin: 0;
 }
-#portfolio * {
+#portfolio *,
+#portfolio2 * {
   z-index: 2;
 }
 @media (min-width: 767px) {
@@ -293,26 +322,26 @@ footer {
   color: white;
 }
 footer h3 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top: 10px;
   background-color: #2C3E50;
 }
 footer .footer-col {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 footer .footer-below {
-  padding: 25px 0;
+  padding: 10px 0;
   background-color: #233140;
 }
 .btn-outline {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
