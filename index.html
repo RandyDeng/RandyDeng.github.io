@@ -379,9 +379,9 @@
                             <h2>Mandelbrot Set</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/mbset.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">Put your description of this awesome Mandelbrot set here!</p>
+                            <p class="small">The Mandelbrot Set project was an assignment from an advanced C++ programming course and allowed me to combine both my graphics and parallel programming skills through the use of OpenGL and pthreads. The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from 0 to infinity. 2000 iterations of this function were used before determining if a point was inside the Mandelbrot Set. However, rather than focusing on the Mandelbrot Set algorithm itself, this code was written with an emphasis on time efficiency and good OpenGL practices. pthreads were used to speed up the pixel calculation process and OpenGL was used to display the image and zoom in/out. Although this project only uses 16 threads, the image is generated relatively quickly. Some future improvements include using other libraries such as CUDA or MPI.</p>
                             <ul class="list-inline item-details">
-                                <li>Source:
+                                <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/mandelbrotSet">GitHub</a>
                                     </strong>
                                 </li>
@@ -416,9 +416,9 @@
                             <h2>Pipelined Computer Architecture Simulator</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/pipeline.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Put your awesome description of pipelining and the many hours you spent working on it here. </p>
+                            <p class="small">Working on the LC-3b simulator gave me a deep level of understanding of how pipelined computer architecture works. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of the simulator was coded solely myself. The main focus on this project was functionality and accuracy. Because this is a pipelined architecture for the LC-3b, all valid instructions should do exactly as they are described to do in the ISA. This process required thorough knowledge of the ISA itself as well as proper organization of code. For example, because this is a simulator, it does not run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. Overall, the simulator operates at a high degree of accuracy and is clearly organized for easy debugging.</p>
                             <ul class="list-inline item-details">
-                                <li>Source:
+                                <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/PipelinedArchitecture">GitHub</a>
                                     </strong>
                                 </li>
@@ -453,9 +453,10 @@
                             <h2>Autonomous DE2Bot</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/de2bot.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Put description of DE2Bot here. </p>
+                            <p class="small">Designing and programming and autonomous robot was both exciting and informative. As a 5 person group, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots. What was most interesting was determining which detection algorithm to use and how we would divide the work load. Instead of programming being the main focus, design choices and clear communication among team members were more important. Our team had initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (mainly memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to home instead of mapping the arena. Objects were detected and tagged on a first come first go basis, which worked very well given our assignment.<br>
+                            My individual work consisted of programming object detection and returning home. Many issues needed to be resolved including but not limited to accounting for errors in movement, positioning the robot so it does not collide with other objects when returning home, and tagging immovable objects. All of these factors were accounted for in a time efficient manner.</p>
                             <ul class="list-inline item-details">
-                                <li>Source:
+                                <li>Links:
                                     <strong><a target="_blank" href="https://github.com/nareddyt/ece2031-DE2-Robot">GitHub</a>
                                     </strong>
                                 </li>
@@ -490,9 +491,13 @@
                             <h2>Missile Command</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/missile_command.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Put an awesome description here. </p>
+                            <p class="small">Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. To implement this, an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler were used. <br>
+
+                            One of the core elements of this project was to use a linked list data structure to keep track of both enemy and player missiles and detect if a collision occurred. Programming the linked list in C meant ensuring proper allocation and freeing of memory, a skill extremely important when dealing with space and time efficiency. The other core element of this project is hardware debugging. Before programming, it was necessary to ensure all pin connections worked as intended. Depending on what kind of errors were made (if any), debugging time could range from 0 seconds to several hours. <br>
+
+                            Overall this project was very informative and I am proud of the result of my game. Colored explosions, multiple levels, arcade-like sound effects, and even a bloopers section were all incorporated to create a positive user experience.</p>
                             <ul class="list-inline item-details">
-                                <li>Source:
+                                <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/Missile_Command">GitHub</a>
                                     </strong>
                                 </li>
@@ -527,7 +532,7 @@
                             <h2>VIP Flapping Wing</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/vip_wing.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Do cool stuff description woohoo. </p>
+                            <p class="small">  </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="http://www.vip.gatech.edu/">GT VIP</a>
@@ -566,7 +571,7 @@
                             <img src="img/portfolio/bci_eeg.png" class="img-responsive img-centered img-resize" alt="">
                             <p class="small"> Do cool stuff description woohoo. </p>
                             <ul class="list-inline item-details">
-                                <li>Source:
+                                <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/SSVEP-BCI-Research">GitHub</a>
                                     </strong>
                                 </li>
