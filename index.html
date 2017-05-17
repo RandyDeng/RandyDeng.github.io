@@ -190,10 +190,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p style="text-align:center;">Curiosity is what keeps me moving forward, opening new doors, and doing new things. The world is a gold mine of knowledge waiting to be discovered and I find a certain thrill in being a part of that adventure. It's lead me to learn programming, astronomy, Japanese culture, and more and it will continue to lead me to new discoveries. It's how I identify myself and why I'm an amazing engineer.</p>
+                    <p style="text-align:center;">Curiosity is what keeps me moving forward, opening new doors, and doing new things. As technology continues to advance, I find it thrilling to be a part of the next generation that will develop new tools and automation techniques. My curiosity for knowledge has lead me to learn programming, astronomy, Japanese culture, and it will continue to lead me to new discoveries in the future.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p style="text-align:center;">I am currently a Computer Engineering student at Georgia Tech. In the past, I have worked at EuroAvionics, ASML, and Barden Corporation as a software engineering summer intern. In the future, I plan to pursue a career in software engineering so that I can built applications that push the boundaries of technology to greater heights.</p>
+                    <p style="text-align:center;">I am currently a Georgia Tech Computer Engineering student studying computer networking and embedded systems. In the past, I have worked at EuroAvionics, ASML, and Barden Corporation as a software engineering summer intern. In the future, I plan to pursue a career in software engineering so that I can built applications that push the boundaries of technology to greater heights. </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="img/rrd_resume.pdf" class="btn btn-lg btn-outline" target="_blank">
@@ -379,7 +379,13 @@
                             <h2>Mandelbrot Set</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/mbset.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">The Mandelbrot Set project was an assignment from an advanced C++ programming course and allowed me to combine both my graphics and parallel programming skills through the use of OpenGL and pthreads. The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from 0 to infinity. 2000 iterations of this function were used before determining if a point was inside the Mandelbrot Set. However, rather than focusing on the Mandelbrot Set algorithm itself, this code was written with an emphasis on time efficiency and good OpenGL practices. pthreads were used to speed up the pixel calculation process and OpenGL was used to display the image and zoom in/out. Although this project only uses 16 threads, the image is generated relatively quickly. Some future improvements include using other libraries such as CUDA or MPI.</p>
+                            <p class="small" align="left"> The Mandelbrot Set project was an assignment from an advanced C++ programming course that allowed me to combine both my graphics and parallel programming skills through the use of OpenGL and pthreads. The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from 0 to infinity. Much of its popularity can be attributed to the stunning images it produces.
+                            <br> <br>
+
+                            The code was written with an emphasis on time efficiency and good OpenGL practices. To determine if a point was in the Mandelbrot Set, 2000 iterations of the function were used to optimize image quality and reduce render time.  pthreads (16) were used to further speed up the pixel calculation process and a zoom function was implemented to emphasize the recursive properties of the Mandelbrot Set.
+                            <br> <br>
+
+                            Overall, the Mandelbrot Set looks amazing and the render time is at most a few seconds (which is several times faster than using a single thread). However, to further reduce render time, libraries such as CUDA or MPI could be used. CUDA would perform high performance parallel computing on GPUs and MPI would utilize idle cores. With OpenGL and good parallel programming skills, it is possible to highly optimize graphics. </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/mandelbrotSet">GitHub</a>
@@ -416,7 +422,13 @@
                             <h2>Pipelined Computer Architecture Simulator</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/pipeline.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">Working on the LC-3b simulator gave me a deep level of understanding of how pipelined computer architecture works. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of the simulator was coded solely myself. The main focus on this project was functionality and accuracy. Because this is a pipelined architecture for the LC-3b, all valid instructions should do exactly as they are described to do in the ISA. This process required thorough knowledge of the ISA itself as well as proper organization of code. For example, because this is a simulator, it does not run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. Overall, the simulator operates at a high degree of accuracy and is clearly organized for easy debugging.</p>
+                            <p class="small" align="left"> The LC-3b simulator is a C program that implements the LC-3b ISA. The purpose was to gain a thorough understanding of pipelined computer architecture and to properly implement a functional simulator. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of the simulator was coded solely myself.
+                            <br> <br>
+
+                            The main focus of this project was functionality and accuracy. Because this is a pipelined architecture for the LC-3b, all valid instructions should do exactly as they are described to do in the ISA. This process required thorough knowledge of the ISA itself as well as proper organization of code. For example, because this is a simulator, it does not run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. An appendix and description of the ISA was provided, but all 5 stages were programmed by myself.
+                            <br> <br>
+
+                            Overall, the simulator operates at a high degree of accuracy and is clearly organized for easy debugging. In the future, improvements in other parts of the architecture, such as the cache and virtual memory, could result in faster execution of instructions. These additional features are easily extendible and would result in a more efficient and robust computer architecture. </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/PipelinedArchitecture">GitHub</a>
@@ -453,8 +465,13 @@
                             <h2>Autonomous DE2Bot</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/de2bot.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">Designing and programming and autonomous robot was both exciting and informative. As a 5 person group, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots. What was most interesting was determining which detection algorithm to use and how we would divide the work load. Instead of programming being the main focus, design choices and clear communication among team members were more important. Our team had initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (mainly memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to home instead of mapping the arena. Objects were detected and tagged on a first come first go basis, which worked very well given our assignment.<br>
-                            My individual work consisted of programming object detection and returning home. Many issues needed to be resolved including but not limited to accounting for errors in movement, positioning the robot so it does not collide with other objects when returning home, and tagging immovable objects. All of these factors were accounted for in a time efficient manner.</p>
+                            <p class="small" align="left"> Designing and programming an autonomous robot was both exciting and informative. As a 5 person group, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots.
+                            <br> <br>
+
+                            What was most interesting was determining which detection algorithm to use and how we would divide the work load. Instead of programming being the main focus, design choices and clear communication among team members took precedence. Our team initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (mainly memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to home. Objects were detected and tagged on a first come first go basis, which worked very well given our assignment.
+                            <br> <br>
+
+                            My individual work consisted of programming object detection and returning home. The code accounted for several issues including but not limited errors in movement, object avoidance, and tagging immovable objects. Overall, the robot performed very well. It was able to detect and tag all 7 objects and was only unable to return home once. </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="https://github.com/nareddyt/ece2031-DE2-Robot">GitHub</a>
@@ -491,11 +508,13 @@
                             <h2>Missile Command</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/missile_command.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. To implement this, an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler were used. <br>
+                            <p class="small" align="left"> Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. To implement this, an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler were used.
+                            <br> <br>
 
-                            One of the core elements of this project was to use a linked list data structure to keep track of both enemy and player missiles and detect if a collision occurred. Programming the linked list in C meant ensuring proper allocation and freeing of memory, a skill extremely important when dealing with space and time efficiency. The other core element of this project is hardware debugging. Before programming, it was necessary to ensure all pin connections worked as intended. Depending on what kind of errors were made (if any), debugging time could range from 0 seconds to several hours. <br>
+                            One of the core elements of this project was to use a linked list data structure to keep track of both enemy and player missiles and detect if a collision occurred. Programming the linked list in C meant ensuring proper allocation and freeing of memory, a skill extremely important when dealing with space and time efficiency. The other core element of this project is hardware debugging. Before programming, it was necessary to ensure all pin connections worked as intended. Depending on what kind of errors were made (if any), debugging time could range from 0 seconds to several hours. This project increased both my memory management and hardware debugging skills.
+                            <br> <br>
 
-                            Overall this project was very informative and I am proud of the result of my game. Colored explosions, multiple levels, arcade-like sound effects, and even a bloopers section were all incorporated to create a positive user experience.</p>
+                            Overall this project was very informative and I am proud of the result of my game. Colored explosions, multiple levels, arcade-like sound effects, and even a bloopers section were all incorporated to create a positive user experience. </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="https://github.com/RandyDeng/Missile_Command">GitHub</a>
@@ -532,7 +551,13 @@
                             <h2>VIP Flapping Wing</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/vip_wing.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small">  </p>
+                            <p class="small" align="left"> Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with 2-3 other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break.
+                            <br> <br>
+
+                            Together with my team, we designed several wing sizes using mylar and tested thrust on each wing using a load cell. While my team members were in charge of designing the wing, I was in charge of the circuitry and thrust data collection. The data was saved as a text file and analyzed using a Kalman filter in Matlab.
+                            <br> <br>
+
+                            Although the wing designs were not successful, it provided insight into possible future improvements and better integration with the blimp. VIP Flapping Wing is one of my older projects that exposed me to embedded systems and laid some groundwork for my future education. </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="http://www.vip.gatech.edu/">GT VIP</a>
@@ -569,13 +594,43 @@
                             <h2>SSVEP-based BCI Research</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/bci_eeg.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Do cool stuff description woohoo. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <strong><a target="_blank" href="https://github.com/RandyDeng/SSVEP-BCI-Research">GitHub</a>
+                            <p class="small" align="left"> As part of the Science Research Program at Ridgefield High School, I helped analyze steady-state visually evoked potentials (SSVEP) from different checkerboard visual stimuli. I was under the mentorship of Dr. Dean Krusienski and his PhD students at Old Dominion University.
+                            <br> <br> </p>
+
+                            <h4> Abstract </h4>
+                            <p class="small" align="left"> A major challenge since the invention of the steady-state visually evoked potential (SSVEP)-based Brain-Computer Interface (BCI) has been improving accuracy and signal recognition. Although SSVEPs have exhibited high accuracy rates on human subjects with minimal BCI exposure, BCIs must achieve high, if not 100% accuracy to be reliable for everyday use. In this study, we examine the effect of altering the size of the checkerboard pattern on the SSVEP signal at 6Hz and 10Hz. The size of the pattern was evaluated on a continuum from a large pattern, which is equivalent to a solid flashing stimulus, to a bounded single pixel checkerboard (256x256 pixels) with the same boundary. The boundary was a 256x256 pixel square. The number of squares doubled on each edge, resulting in the following checkerboard patterns: lx1, 2x2, 4x4, 8x8, 16x16, 32x32, 64x64, 128x128, and 256x256. A Fast Fourier Transform was done to graphically display the power spectral density (PSD) of the SSVEP signals and a paired t-test was done between the increasing checkerboard and solid stimuli with their respective frequencies to check for any significant power difference. </p>
+                            <p align="left" class="small">Awards: </p>
+                                <ul align="left">
+                                    <strong>
+                                    <li>
+                                        <a target="_blank" href="http://ctsciencefair.org/media/2015CS.pdf"> CT Science and Engineering Fair Award (2015) </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf"> Southern CT Science and Engineering Fair </a>: Third Place Physical Science (2015)
+                                    </li>
                                     </strong>
-                                </li>
-                                <li>Date:
+                                </ul>
+                            </li>
+                            <p align="left" class="small">Press: </p>
+                                <ul align="left">
+                                    <strong>
+                                    <li>
+                                        <a target="_blank" href="https://sites.wp.odu.edu/ASPEN/people/"> Old Dominion University Aspen Lab <br> </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/"> Science symposium: Dark matter and mind reading </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.theridgefieldpress.com/28800/science-students-on-education-tv/"> Science students on education TV </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students"> Teacher TV Show features outstanding RHS Science Students </a>
+                                    </li>
+                                    </strong>
+                                </ul> 
+                            </li>
+                            <ul class="list-inline item-details">
+                                <li> Date:
                                     <strong>2012-2015</strong>
                                 </li>
                                 <li>Skills:
@@ -608,7 +663,13 @@
                             <h2>Sunset Observation Paper</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/sunset.png" class="img-responsive img-centered img-resize" alt="">
-                            <p class="small"> Do cool stuff description woohoo. </p>
+                            <p class="small" align="left"> Although I love what I do as an engineer, I find it increasingly important to have hobbies outisde of the technical field. Astronomy is one of these hobbies and it was only recently I discovered how beautiful and fascinating it can be.
+                            <br> <br>
+
+                            It started with the sunset paper I was assigned in my Solar Systems class. As I took sunset pictures every other week and observed the Sun shift across the sky, I found myself looking at the sky more often. I observed double rainbows, sun dogs, interesting cloud formations, and other objects I would have otherwise missed. What baffled me was not just how incredible these objects looked, but how so many people don't see it despite being visible to the naked eye.
+                            <br> <br>
+                            
+                             </p>
                             <ul class="list-inline item-details">
                                 <li>Links:
                                     <strong><a target="_blank" href="http://www.astronomyclub.gatech.edu/">GT Astronomy Club</a>
