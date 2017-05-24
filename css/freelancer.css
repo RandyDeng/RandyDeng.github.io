@@ -212,7 +212,7 @@ section.success {
 #portfolio2 .portfolio2-item .portfolio2-link {
   display: block;
   position: relative;
-  max-width: 300px;
+  max-width: 350px;
   margin: 0 auto;
 
 }
@@ -555,3 +555,125 @@ fieldset[disabled] .btn-success.active {
 div#maincontent {
   outline: none;
 }
+
+
+
+
+
+#skill { 
+  list-style: none;
+  font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  width: 360px;
+  margin: 13px auto 0;
+  position: relative;
+  line-height: 2em;
+  padding: 5px 0;
+}
+
+#skill li { 
+  margin-bottom:40px; 
+  background:#e9e5e2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
+  background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -ms-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: -o-linear-gradient(top, #e1ddd9, #e9e5e2);
+  background-image: linear-gradient(top, #e1ddd9, #e9e5e2);  
+  height:20px; 
+  border-radius:10px; 
+  -moz-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;   
+  -webkit-box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;  
+  box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;   
+}
+
+#skill li h3 { 
+  position:relative; 
+  top:-25px;
+}
+
+.bar { 
+  height:18px; 
+  margin:1px 2px;  
+  position:absolute;
+  border-radius:10px;
+  -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+  -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;  
+  box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;   
+}
+
+.C-Cpp {
+  width:80%; 
+  -moz-animation:C-Cpp 3s ease-out;
+  -webkit-animation:C-Cpp 3s ease-out;
+  background-color: #f674a4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
+  background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
+  background-image: -moz-linear-gradient(top, #f674a4, #e06995);
+  background-image: -ms-linear-gradient(top, #f674a4, #e06995);
+  background-image: -o-linear-gradient(top, #f674a4, #e06995);
+  background-image: linear-gradient(top, #f674a4, #e06995);
+}
+
+.java {
+  width:70%;
+  -moz-animation:java 3s ease-out;
+  -webkit-animation:java 3s ease-out;
+  background-color: #f0bb4b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
+  background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
+  background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+}
+
+.parallelprogramming {
+  width:50%;
+  -moz-animation:parallelprogramming 3s ease-out;
+  -webkit-animation:parallelprogramming 3s ease-out;
+  background-color: #a1ce5b;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a1ce5b), to(#91ba52));
+  background-image: -webkit-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -moz-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -ms-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: -o-linear-gradient(top, #a1ce5b, #91ba52);
+  background-image: linear-gradient(top, #a1ce5b, #91ba52);
+}
+
+.html-css {
+  width:30%;
+  -moz-animation:html-css 3s ease-out;
+  -webkit-animation:html-css 3s ease-out;
+  background-color: #66b3cc;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#66b3cc), to(#5da3ba));
+  background-image: -webkit-linear-gradient(top, #66b3cc, #5da3ba);
+  background-image: -moz-linear-gradient(top, #66b3cc, #5da3ba);
+  background-image: -ms-linear-gradient(top, #66b3cc, #5da3ba);
+  background-image: -o-linear-gradient(top, #66b3cc, #5da3ba);
+  background-image: linear-gradient(top, #66b3cc, #5da3ba)  
+}
+
+.humor {
+  width:45%;
+  -moz-animation:humor 3s ease-out;
+  -webkit-animation:humor 3s ease-out;
+  background-color: #ad4545;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ad4545), to(#ad4545));
+  background-image: -webkit-linear-gradient(top, #ad4545, #ad4545);
+  background-image: -moz-linear-gradient(top, #ad4545, #ad4545);
+  background-image: -ms-linear-gradient(top, #ad4545, #ad4545);
+  background-image: -o-linear-gradient(top, #ad4545, #ad4545);
+  background-image: linear-gradient(top, #ad4545, #ad4545)  
+}
+
+@-moz-keyframes C-Cpp       {0%   { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes java        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-moz-keyframes parallelprogramming      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-moz-keyframes html-css   { 0%  { width:0px;} 100%{ width:30%;}  }
+@-moz-keyframes humor   { 0%  { width:0px;} 100%{ width:45%;}  }
+
+@-webkit-keyframes C-Cpp       { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes java        { 0%  { width:0px;} 100%{ width:70%;}  }
+@-webkit-keyframes parallelprogramming      { 0%  { width:0px;} 100%{ width:50%;}  }
+@-webkit-keyframes html-css   { 0%  { width:0px;} 100%{ width:30%;}  }
+@-webkit-keyframes humor   { 0%  { width:0px;} 100%{ width:45%;}  }
