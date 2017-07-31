@@ -43,12 +43,16 @@ h1.light, h2.light {
     font-family: monospace;
     white-space: pre;
     color: white;
+    font-size: 2.2em;
+    font-weight: bold;
 }
 
 h1.dark, h2.dark {
     font-family: monospace;
     white-space: pre;
     color: black;
+    font-size: 2.2em;
+    font-weight: bold;
 }
 
 p.left, h1.left, h2.left, h3.left, h4.left, ul.left {
@@ -209,8 +213,9 @@ section h2 {
     font-size: 2.5em;
 }
 
-section h2.bracket {
-    margin-bottom: 0.7em;
+section h3.bracket {
+    margin: 0 0 0.7em 0;
+    font-size: 2em;
 }
 
 section.light {
