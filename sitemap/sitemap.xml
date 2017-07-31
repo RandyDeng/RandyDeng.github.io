@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.randydeng.com/</loc>
+    <lastmod>2017-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.randydeng.com/img/rrd_resume.pdf</loc>
+    <lastmod>2017-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.randydeng.com/img/sunset_paper.pdf</loc>
+    <lastmod>2017-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
+<!--<guid value="6fa2cd1f-3bb7-4061-9130-40fbac6e8017" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
