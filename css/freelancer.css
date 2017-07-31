@@ -39,13 +39,13 @@ h6 {
     height: auto;
 }
 
-h1.light {
+h1.light, h2.light {
     font-family: monospace;
     white-space: pre;
     color: white;
 }
 
-h1.dark {
+h1.dark, h2.dark {
     font-family: monospace;
     white-space: pre;
     color: black;
@@ -53,6 +53,10 @@ h1.dark {
 
 p.left, h1.left, h2.left, h3.left, h4.left, ul.left {
     text-align: left;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /*changes the background in header*/
