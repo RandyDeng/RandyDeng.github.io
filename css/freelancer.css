@@ -1,6 +1,14 @@
 body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
 }
 
 p {
@@ -81,17 +89,28 @@ li.fancy {
     margin-left: -2em;
 }
 
+/* Default Color to Prevent Flicker */
+body {
+    background: #1D3557;
+}
 
 /*changes the background in header*/
 
 header {
     text-align: center;
     color: white;
-    background: #333333;
+    background-image: url("../img/mainBG.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 250px;
     padding-bottom: 50px;
 }
 
@@ -105,9 +124,10 @@ header img {
 header .intro-text .name {
     display: block;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 2em;
+    font-weight: 500;
+    font-size: 1em;
+    margin-top: 1.2em;
+    margin-bottom: -0.3em;
 }
 
 header .intro-text .skills {
@@ -129,11 +149,11 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-    background: #222222;
+    background: rgba(0,0,0,0.2);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     font-weight: 500;
-    border: 1px black;
+    font-size: 1.2em;
+    border: 0.1px black;
 }
 
 .navbar-custom .navbar-brand {
@@ -146,8 +166,12 @@ header .intro-text .skills {
 
 .navbar-custom .navbar-brand:hover {
     color: white;
+    -o-transition: all .2s ease-out, background 1s ease-in;
+    -ms-transition: all .2s ease-out, background 1s ease-in;
+    -moz-transition: all .2s ease-out, background 1s ease-in;
+    -webkit-transition: all .2s ease-out, background 1s ease-in;
     text-decoration: underline;
-    font-size: 2.2em;
+    font-size: 1.7em;
 }
 
 .navbar-custom .navbar-brand:active,
@@ -157,7 +181,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom .navbar-nav {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .navbar-custom .navbar-nav li a {
@@ -207,10 +231,10 @@ header .intro-text .skills {
         transition: padding 0.2s;
     }
     .navbar-custom .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
-        transition: all 0.s;
+        transition: all 0.2s;
     }
     .navbar-custom.affix {
         padding: 0px 0;
@@ -457,43 +481,19 @@ footer .footer-below {
 }
 
 hr.fancylight {
-    width: 60%;
-    height: 30px;
+    width: 30em;
     border-style: solid;
     border-color: white;
     border-width: 1px 0 0 0;
-    border-radius: 20px;
-}
-
-hr.fancylight:before {
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: white;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 hr.fancydark {
-    width: 60%;
-    height: 30px;
+    width: 30em;
     border-style: solid;
     border-color: black;
     border-width: 1px 0 0 0;
-    border-radius: 20px;
-}
-
-hr.fancydark:before {
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .btn-outline {
@@ -617,6 +617,7 @@ fieldset[disabled] .btn-success.active {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+    margin-top: -0.2em;
 }
 
 .scroll-top {
@@ -743,70 +744,8 @@ h4 {
 
 div#maincontent {
     outline: none;
-}
-
-.rainbow {
-    color: white;
-    transition: color .3s ease-in-out;
-    -moz-transition: color .3s ease-in-out;
-    text-decoration: underline;
-}
-
-.rainbow-dark {
-    color: black;
-}
-
-.rainbow-no-underline {
-    text-decoration: none;
-}
-
-.rainbow:hover {
-    -webkit-animation: zomg 0.8s infinite;
-    animation: zomg 0.8s infinite;
-}
-
-@-webkit-keyframes zomg {
-    0%,
-    100% {
-        color: #7ccdea;
-    }
-    16% {
-        color: #0074d9;
-    }
-    32% {
-        color: #2ecc40;
-    }
-    48% {
-        color: #ffdc00;
-    }
-    64% {
-        color: #b10dc9;
-    }
-    80% {
-        color: #ff4136;
-    }
-}
-
-@keyframes zomg {
-    0%,
-    100% {
-        color: #7ccdea;
-    }
-    16% {
-        color: #0074d9;
-    }
-    32% {
-        color: #2ecc40;
-    }
-    48% {
-        color: #ffdc00;
-    }
-    64% {
-        color: #b10dc9;
-    }
-    80% {
-        color: #ff4136;
-    }
+    height: 100%;
+    width: 100%;
 }
 
 .wrap {

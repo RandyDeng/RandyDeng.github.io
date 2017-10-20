@@ -2,7 +2,7 @@
 
 My personal website showcases my experience, values, and interests. The original website was built in September 2016 using wordpress.com to hold information on projects I completed. However, I discovered that it was difficult to update my website and express myself through WordPress.
 
-In May 2017, I decided to host a new personal website on GitHub to facilitate easier and faster updates. I created this website using a Bootstrap framework and my self-taught HTML/CSS skills.
+In May 2017, I decided to host a new personal website on GitHub to facilitate easier and faster updates. I created this website using Bootstrap and my self-taught HTML/CSS skills.
 
 ## Creator
 
