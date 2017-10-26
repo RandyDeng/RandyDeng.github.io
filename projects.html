@@ -14,6 +14,7 @@
 
     <!--  Bootstrap Core CSS  -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fade.min.css" rel="stylesheet" />
 
     <!--  Theme CSS  -->
     <link href="css/freelancer.min.css" rel="stylesheet" />
@@ -29,7 +30,7 @@
     <![endif]-->
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index fade-in">
 
     <!--  Navigation  -->
     <nav id="mainNav" class="navbar navbar-fixed-top navbar-custom affix-top">
@@ -56,7 +57,7 @@
                         <a href="projects.html">Projects</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="other_work.html">Other Work</a>
+                        <a href="work.html">Work</a>
                     </li>
                     <li class="page-scroll">
                         <a href="img/rrd_resume.pdf">Resume</a>
@@ -66,421 +67,123 @@
         </div>
     </nav>
 
-    <!--  Header  -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <img width="250" height="250" itemprop="image" class="img-responsive" src="img/profile.png" alt="" />
-                <div class="intro-text">
-                    <hr class="fancylight">
-                    <div class="col-md-10 col-md-offset-1">
-                        <p> My name is Randy Deng and I am currently a third year Georgia Tech Computer Engineering student studying computer networking and embedded systems. I am a technology enthusiast and enjoy building anything I think is cool. If you have any suggestions or internship opportunities, feel free to reach out to me through <a href="mailto:rdeng30@gatech.edu?subject=Nice%20to%20meet%20you%20Randy!" class="rainbow">email</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Header Image -->
+    <section class="header">
+        <h3> Projects </h3>
+        <p> Showcasing my technical expertise, personality, and hobbies</p>
+    </section>
 
     <!--  Projects Grid Section  -->
-    <section class="dark" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="light">git commit -m</h2>
-                    <h2 class="light">"projects"</h2>
-                    <hr class="fancylight" />
-                </div>
+    <section class="project" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/mbset.png" class="img-responsive" alt="Mandelbrot Set" />
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#mandelbrotSet" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <p> Mandelbrot Set </p>
-                                    <p> C++ project using OpenGL and pthreads to display Mandelbrot Set </p>
-                                </div>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/mbset.png" class="img-responsive" alt="Mandelbrot Set" />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#pipelinedArchitecture" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p> Pipelined Microarchitecture </p>
-                                <p> 5-stage LC-3b microarchitecture simulator coded in C </p>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/pipeline.png" class="img-responsive" alt="Pipelined Microarchitecture" />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#autonomousDE2Bot" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p> Autonomous DE2Bot </p>
-                                <p> Robot programmed in VHDL and assembly to autonomously detect and tag objects </p>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/de2bot.png" class="img-responsive" alt="Autonomous DE2Bot" />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#missileCommand" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p> Missile Command </p>
-                                <p> mbed project featuring the Missile Command game programmed in C </p>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/missile_command.png" class="img-responsive" alt="Missile Command Game" />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#vipFlappingWing" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p> VIP Flapping Wing </p>
-                                <p> Research to design and test plastic wings for increased maneuverability of miniature blimp </p>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/vip_wing.png" class="img-responsive" alt="VIP Flapping Wing" />
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#ssvepBCIResearch" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <p> SSVEP-based BCI Research </p>
-                                <p> BCI research on which SSVEP stimuli creates the strongest response </p>
-                            </div>
-                        </div>
-                        <img width="900" height="600" src="img/portfolio/bci_eeg.png" class="img-responsive" alt="SSVEP-based BCI Research" />
-                    </a>
-                </div>
+            <div class="col-sm-5 portfolio-text">
+                <a class="title" href="https://github.com/RandyDeng/mandelbrotSet"> Mandelbrot Set </a>
+                <p class="date"> Spring 2017 </p>
+                <p class="description"> The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from zero to infinity. Much of its popularity can be attributed to the stunning images and fractal patterns it produces. Using C++, OpenGL, and pthreads, I spawned 16 threads to parallelize pixel calculation and displayed the result with OpenGL. The application allowed for easy configuration of colors and included a zoom function to emphasize the recursive properties of the Mandelbrot Set. I enjoyed this project because it challenged me to consider how to structure the code in a way that is both clean and efficient. </p>
             </div>
         </div>
     </section>
-
-    <!--  Footer  -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col">
-                        <h3 class="light"> Connect With Me </h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/randy.deng.1" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/RandyDeng" class="btn-social btn-outline"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/randydeng/" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://rycante.deviantart.com/" class="btn-social btn-outline"><span class="sr-only">DeviantArt</span><i class="fa fa-fw fa-deviantart"></i></a>
-                            </li>
-                            <li>
-                                <a href="mailto:rdeng30@gatech.edu?subject=Nice%20to%20meet%20you%20Randy!" class="btn-social btn-outline"><span class="sr-only">Send mail</span><i class="fa fa-fw fa-envelope-o"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+    <section class="project2" id="portfolio">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4 portfolio-item">
+                    <img width="900" height="600" src="img/portfolio/html.png" class="img-responsive" alt="Mandelbrot Set" />
                 </div>
+                <div class="col-sm-5 portfolio-text">
+                    <a class="title" href="https://github.com/RandyDeng/RandyDeng.github.io"> randydeng.com </a>
+                    <p class="date"> Spring 2017 - Present </p>
+                    <p class="description"> My personal website showcases my experience, values, and interests. The original website was built in September 2016 using <a href="https://wordpress.com">WordPress</a> to easily hold information on projects I completed. However, I discovered that using templates greatly limited my ability to express myself through my website. In May 2017, I decided to host a new personal website on <a href="https://github.com/RandyDeng">GitHub</a> to facilitate easier and faster updates. I started off using a Bootstrap template and have greatly improved my website since. This website was created using Bootstrap and my self-taught HTML/CSS and JavaScript skills. </p>
+                </div>
+        </div>
+    </section>
+    <section class="project" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/pipeline.png" class="img-responsive" alt="Mandelbrot Set" />
+            </div>
+            <div class="col-sm-6 portfolio-text">
+                <a class="title" href="https://github.com/RandyDeng/PipelinedArchitecture"> Pipelined Microarchitecture </a>
+                <p class="date"> Spring 2017 </p>
+                <p class="description"> The LC-3b simulator is a C program that implements a 5-stage piplined microarchitecture of the LC-3b ISA. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. Programming the simulator required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. This application could be easily extended to take into account virtual memory, caching, and more. </p>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        © 2017 <b>Randy Deng</b>. All rights reserved.
-                    </div>
-                </div>
+    </section>
+    <section class="project2" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/de2bot.png" class="img-responsive" alt="Mandelbrot Set" />
+            </div>
+            <div class="col-sm-6 portfolio-text">
+                <a class="title" href="https://github.com/nareddyt/ece2031-DE2-Robot"> Autonomous DE2Bot </a>
+                <p class="date"> Fall 2016 </p>
+                <p class="description"> Designing and programming an autonomous robot was both exciting and informative. As a 5 person team, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots. What was most challenging was selecting a detection algorithm and division of labor. Instead of programming being the main focus, design choices and clear communication among team members were more important. Our team initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (e.g. memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to its origin. Objects were detected and tagged on a first-come, first-serve basis, which worked very well. </p>
             </div>
         </div>
-    </footer>
-
-    <!--  Portfolio Modals  -->
-
-    <!--  Mandelbrot Set  -->
-    <div class="portfolio-modal modal fade" id="mandelbrotSet" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    </section>
+    <section class="project" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-5 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/missile_command.png" class="img-responsive" alt="Mandelbrot Set" />
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mandelbrot Set</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/mbset.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> What is the Mandelbrot Set? </h4>
-                            <p class="small left"> The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from 0 to infinity. Mandelbrot set images can be created by sampling complex numbers and determining if the result diverges. If the result diverges, the point is in the Mandelbrot Set and is colored black. Otherwise, a color of the programmers choice is used (but should vary linearly with the number of iterations). Much of its popularity can be attributed to the stunning images and fractal patterns it produces. <br/> <br/> </p>
-
-                            <h4 class="left"> High Performance and Good Coding Practices </h4>
-                            <p class="small left"> My code was written with an emphasis on high performance and good OpenGL practices. In order to find a good balance between image quality and render time, I set a threshold of 2000 iterations to determine if a point was in the Mandelbrot Set. If this number was too high, render time would increase and the image quality would decrease. If this number was too low, the opposite would occur. To further optimize performance, 16 pthreads were created to parallelize pixel calculation. OpenGL code was programmed and clearly organized to work properly with the pthreads. In addition, a zoom function was implemented to emphasize the recursive properties of the Mandelbrot Set. <br/> <br/> </p>
-
-                            <h4 class="left"> Future Improvements </h4>
-                            <p class="small left"> Overall, the Mandelbrot Set looks amazing and render time is only a few seconds (which is several times faster than using a single thread). However, to further reduce render time, libraries such as CUDA or MPI could be used. CUDA would perform high performance parallel computing on GPUs and MPI would utilize idle cores. With OpenGL and good parallel programming skills, I hope to apply these skills on future projects that require optimized graphics. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <a class="bold" href="https://github.com/RandyDeng/mandelbrotSet">GitHub</a>
-                                </li>
-                                <li>Date:
-                                    <strong>Spring 2017</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>C++, OpenGL, pthreads</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-6 portfolio-text">
+                <a class="title" href="https://github.com/RandyDeng/Missile_Command"> Missile Command </a>
+                <p class="date"> Fall 2016 </p>
+                <p class="description"> Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. I implemented this using an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler. Working on this project forced me to further develop my memory allocation and hardware debugging skills. I used a linked list to keep track of all player and enemy missiles on the screen, which meant I had to have good memory management skills if I didn't want errors to occur. Additionally, as with any embedded project, good wire management and organization was essential for smooth hardware debugging. The game featured multiple levels, multi-colored explosions, retro sound effects, high score rankings, level skipping, and more. </p>
             </div>
         </div>
-    </div>
-
-    <!--  Pipelined Architecture  -->
-    <div class="portfolio-modal modal fade" id="pipelinedArchitecture" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    </section>
+    <section class="project2" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/sunset.png" class="img-responsive" alt="Sunset Photo" />
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Pipelined Computer Architecture Simulator</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/pipeline.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> LC-3b and the Simulator </h4>
-                            <p class="small left"> The LC-3b simulator is a C program that implements the LC-3b ISA. The purpose was to gain a thorough understanding of pipelined computer architecture and to implement a fully functional simulator. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. <br/> <br/> </p>
-                            <h4 class="left"> Functionality and Accuracy </h4>
-                            <p class="small left"> The main focus of this project was functionality and accuracy. Because this is a pipelined architecture for the LC-3b, all valid instructions should do exactly as they are described to do in the ISA. This process required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. An appendix and description of the ISA was provided, and after many hours I completed the simulator. <br/> <br/> </p>
-
-                            <h4 class="left"> Simulator Results and Additional Features </h4>
-                            <p class="small left"> Overall, the simulator operates to a high degree of accuracy and is clearly organized for easy debugging. In the future, improvements in other parts of the architecture, such as cache and virtual memory, could result in faster execution of instructions. These additional features are easily extendible and would result in a more efficient and robust computer architecture. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <a class="bold" href="https://github.com/RandyDeng/PipelinedArchitecture">GitHub</a>
-                                </li>
-                                <li>Date:
-                                    <strong>Spring 2017</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>C, LC-3b, Pipelined Computer Architecture</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-5 portfolio-text">
+                <a class="title" href="http://www.astronomyclub.gatech.edu/"> Sunset Observation </a>
+                <p class="date"> Fall 2015 - Present </p>
+                <p class="description"> Although I love what I do as an engineer, it is important to have hobbies outside of the technical field. Astronomy is one of these hobbies and it was only recently I discovered how beautiful and fascinating it can be. It started with the <a href="img/sunset_paper.pdf">sunset paper</a> I was assigned in my Solar Systems class and eventually led me to join the Astronomy Club. Every semester, the club goes on a camping trip to Deerlick Astronomy Village, a dark sky area where astronomers and astrophotographers gather to take pictures of the stars. At night, the Milky Way and thousands of stars are visible with the naked eye. I felt that this was a truly unique experience and have been going on semesterly camping trips ever since. </p>
             </div>
         </div>
-    </div>
-
-    <!--  Autonomous DE2Bot  -->
-    <div class="portfolio-modal modal fade" id="autonomousDE2Bot" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    </section>
+    <section class="project" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/vip_wing.png" class="img-responsive" alt="Mandelbrot Set" />
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Autonomous DE2Bot</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/de2bot.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> Automating a Robot </h4>
-                            <p class="small left"> Designing and programming an autonomous robot was both exciting and informative. As a 5 person team, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots. <br/> <br/> </p>
-
-                            <h4 class="left"> Sensing the Arena </h4>
-                            <p class="small left"> What was most interesting was determining which detection algorithm to use and how to divide the work load. Instead of programming being the main focus, design choices and clear communication among team members took precedence. Our team initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (e.g. memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to home. Objects were detected and tagged on a first-come, first-serve basis, which worked very well given our assignment. <br/> <br/> </p>
-
-                            <h4 class="left"> Contribution and Success </h4>
-                            <p class="small left"> My individual work consisted of programming object detection and returning home. The code accounted for several issues, including but not limited to, errors in movement, object avoidance, and tagging immovable objects. Overall, the robot performed very well. It was able to detect and tag all 7 objects well below the time limit. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <a class="bold" href="https://github.com/nareddyt/ece2031-DE2-Robot">GitHub</a>
-                                </li>
-                                <li>Date:
-                                    <strong>Fall 2016</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>Assembly, VHDL, System I/O</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-5 portfolio-text">
+                <a class="title" href="http://www.vip.gatech.edu/"> VIP Flapping Wing </a>
+                <p class="date"> Fall 2015, Spring 2016 </p>
+                <p class="description"> Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with two other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break. While my team members were in charge of designing the wing, I was in charge of collecting and analyzing data using a load cell and Kalman Filter. </p>
             </div>
         </div>
-    </div>
-
-    <!--  Missile Command Game  -->
-    <div class="portfolio-modal modal fade" id="missileCommand" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
+    </section>
+    <section class="project2" id="portfolio">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-4 portfolio-item">
+                <img width="900" height="600" src="img/portfolio/bci_eeg.png" class="img-responsive" alt="Mandelbrot Set" />
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Missile Command</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/missile_command.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> An Improvised Missile Command </h4>
-                            <p class="small left"> Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. To implement this, an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler were used. <br/> <br/> </p>
-
-                            <h4 class="left"> Efficiency and Hardware </h4>
-                            <p class="small left"> One of the core elements of this project was to use a linked list data structure to keep track of collisions between enemy and player missiles. Programming the linked list in C meant ensuring proper allocation and freeing of memory, a skill extremely important when dealing with space and time efficiency. The other core element of this project was hardware debugging. Before programming, it was necessary to ensure all pin connections worked as intended. Depending on what kind of errors were made (if any), debugging time could range from 0 seconds to several hours. This project increased both my memory management and hardware debugging skills. <br/> <br/> </p>
-
-                            <h4 class="left"> A Good Embedded Systems Game </h4>
-                            <p class="small left"> Overall this project was very informative and I am proud of the result of my game. Colored explosions, multiple levels, arcade-like sound effects, and even bloopers were all elements to create a positive user experience. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <a class="bold" href="https://github.com/RandyDeng/Missile_Command">GitHub</a>
-                                </li>
-                                <li>Date:
-                                    <strong>Fall 2016</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>C, mbed, System I/O</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-5 portfolio-text">
+                <a class="title" href="https://github.com/RandyDeng/SSVEP-BCI-Research"> SSVEP-based BCI Research </a>
+                <p class="date"> 2012-2015 </p>
+                <p class="description"> Awards: <a href="http://ctsciencefair.org/media/2015CS.pdf"> CSEF, </a><a href="http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf"> SCSEF</a> </p>
+                <p class="description"> Press:
+                    <a href="https://sites.wp.odu.edu/ASPEN/people/"> Old Dominion University Aspen Lab </a>,
+                    <a href="http://www.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/"> Ridgefield Press </a>,
+                    <a class="bold" href="http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students"> HamletHub </a>,
+                    <a class="bold" href="http://www.theridgefieldpress.com/28800/science-students-on-education-tv/"> Ridgefield Now We're Talking </a> </p>
+                <p class="description"> As part of the Science Research Program at Ridgefield High School, I analyzed steady-state visually evoked potentials (SSVEP) using different checkerboard visual stimuli. I was under the mentorship of Dr. Dean Krusienski and his PhD students at Old Dominion University. </p>
             </div>
         </div>
-    </div>
-
-    <!--  VIP Flapping Wing Research  -->
-    <div class="portfolio-modal modal fade" id="vipFlappingWing" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>VIP Flapping Wing</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/vip_wing.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> Teamwork and VIP </h4>
-                            <p class="small left"> Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with 2-3 other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break. <br/> <br/> </p>
-
-                            <h4 class="left"> Wing Design and Testing </h4>
-                            <p class="small left"> Together with my team, we designed several wing sizes using mylar and tested thrust on each wing using a load cell. While my team members were in charge of designing the wing, I was in charge of the circuitry and thrust data collection. The data was saved as a text file and analyzed using a Kalman filter in Matlab. <br/> <br/> </p>
-
-                            <h4 class="left"> Results </h4>
-                            <p class="small left"> Although the wing designs were not successful, it provided insight into possible future improvements and better integration with the blimp. VIP Flapping Wing is one of my first projects that exposed me to embedded systems and laid the groundwork for my future education as well. </p>
-                            <ul class="list-inline item-details">
-                                <li>Links:
-                                    <a class="bold" href="http://www.vip.gatech.edu/">GT VIP</a>
-                                </li>
-                                <li>Date:
-                                    <strong>Fall 2015, Spring 2016</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>Arduino, C, SparkFun</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--  SSVEP BCI Research  -->
-    <div class="portfolio-modal modal fade" id="ssvepBCIResearch" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>SSVEP-based BCI Research</h2>
-                            <hr class="fancydark">
-                            <img width="900" height="600" src="img/portfolio/bci_eeg.png" class="img-responsive img-centered img-resize" alt="" />
-                            <h4 class="left"> what Science Research is About </h4>
-                            <p class="small left"> As part of the Science Research Program at Ridgefield High School, I helped analyze steady-state visually evoked potentials (SSVEP) from different checkerboard visual stimuli. I was under the mentorship of Dr. Dean Krusienski and his PhD students at Old Dominion University. <br/> <br/> </p>
-
-                            <h4 class="left"> Abstract </h4>
-                            <p class="small left"> A major challenge since the invention of the steady-state visually evoked potential (SSVEP)-based Brain-Computer Interface (BCI) has been improving accuracy and signal recognition. Although SSVEPs have exhibited high accuracy rates on human subjects with minimal BCI exposure, BCIs must achieve extremely high, if not 100% accuracy, to be reliable for everyday use. In this study, we examine the effect of altering the size of the checkerboard pattern on the SSVEP signal at 6Hz and 10Hz. The size of the pattern was evaluated on a continuum from a large pattern, which is equivalent to a solid flashing stimulus, to a bounded single pixel checkerboard (256x256 pixels) with the same boundary. The boundary is a 256x256 pixel square. The number of squares doubled on each edge, resulting in the following checkerboard patterns: lx1, 2x2, 4x4, 8x8, 16x16, 32x32, 64x64, 128x128, and 256x256. A Fast Fourier Transform and the power spectral density (PSD) of the SSVEP signal data was computed and plotted. In addition, a paired t-test was done between the increasing checkerboard and solid stimuli with their respective frequencies to check for any significant power difference. </p>
-                            <p class="small left">Awards: </p>
-                            <ul class="left">
-                                <li>
-                                    <a class="bold" href="http://ctsciencefair.org/media/2015CS.pdf"> CT Science and Engineering Fair Award (2015) </a>
-                                </li>
-                                <li>
-                                    <a class="bold" href="http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf"> Southern CT Science and Engineering Fair </a>: Third Place Physical Science (2015)
-                                </li>
-                            </ul>
-
-                            <p class="small left">Press: </p>
-                            <ul class="left">
-                                <li>
-                                    <a class="bold" href="https://sites.wp.odu.edu/ASPEN/people/"> Old Dominion University Aspen Lab <br/> </a>
-                                </li>
-                                <li>
-                                    <a class="bold" href="http://www.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/"> Science symposium: Dark matter and mind reading </a>
-                                </li>
-                                <li>
-                                    <a class="bold" href="http://www.theridgefieldpress.com/28800/science-students-on-education-tv/"> Science students on education TV </a>
-                                </li>
-                                <li>
-                                    <a class="bold" href="http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students"> Teacher TV Show features outstanding RHS Science Students </a>
-                                </li>
-                            </ul>
-
-                            <ul class="list-inline item-details">
-                                <li> Date:
-                                    <strong>2012-2015</strong>
-                                </li>
-                                <li>Skills:
-                                    <strong>BCI, Matlab, C#, Bioengineering</strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
     <!-- Custom Text Animation JavaScript -->
     <script src="js/animate_text.min.js"></script>

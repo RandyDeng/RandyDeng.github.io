@@ -24,9 +24,6 @@
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode: forwards;
     /*IE 10+*/
-    /* Prevents Flicker */
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-style: preserve-3d;
 }
 
 @keyframes animationFrames {
