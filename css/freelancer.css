@@ -341,6 +341,11 @@
             margin-left: 1em;
             margin-right: 1em;
         }
+        #portfolio .center {
+            width: 30em;
+            margin-left: -2em;
+            text-align: left;
+        }
         #portfolio .about-text {
             text-align: center;
         }
