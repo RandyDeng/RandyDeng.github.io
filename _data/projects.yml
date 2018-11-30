@@ -1,0 +1,89 @@
+- name: Quotebook
+  date: Fall 2017
+  description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment. Check out some of the quotes <a href="http://18.216.218.79">here</a>.
+  link: https://github.com/RandyDeng/Quotebook
+  image: assets/images/portfolio/quotebook.png
+  alternative_link: http://18.216.218.79
+
+- name: Struct
+  date: Fall 2017
+  description: In any team-based project, whether it be open source or for a company, it is important for new members to quickly understand what has been done and what needs to be done. But if the codebase is extremely large, it can take people weeks to understand the full structure of the application. Struct was created to help onboard new project team members by automatically illustrating the structure of a codebase in a simple and intuitive fashion. Struct is a code visualization web app that generates and displays a graph representation for any given GitHub repository. The graph displays each file as a node and links nodes together by finding related objects (e.g. classes, methods) in each file. The user can also manually tag and move nodes around to better organize the graph. This project was created by myself and two teammates for <a href="https://devpost.com/software/struct">HackGT.</a>
+  link: https://github.com/ChenJonathan/Struct
+  image: assets/images/portfolio/struct.png
+  alternative_link: None
+
+- name: Mandelbrot Set
+  date: Spring 2017
+  description: The Mandelbrot Set is a set of complex numbers for which a particular function does not diverge when iterated from zero to infinity. Much of its popularity can be attributed to the stunning images and fractal patterns it produces. Using C++, OpenGL, and pthreads, I spawned 16 threads to parallelize pixel calculation and displayed the result with OpenGL. The application allowed for easy configuration of colors and included a zoom function to emphasize the recursive properties of the Mandelbrot Set. I enjoyed this project because it challenged me to consider how to structure the code in a way that is both clean and efficient.
+  link: https://github.com/RandyDeng/mandelbrotSet
+  image: assets/images/portfolio/mbset.png
+  alternative_link: None
+
+- name: randydeng.com
+  date: Spring 2017 - Present
+  description: My personal website showcases my experience, values, and interests. The original website was built in September 2016 using <a href="https://wordpress.com">WordPress</a> to easily hold information on projects I completed. However, I discovered that using templates greatly limited my ability to express myself through my website. In May 2017, I decided to host a new personal website on <a href="https://github.com/RandyDeng">GitHub</a> to facilitate easier and faster updates. I started off using a Bootstrap template and have greatly improved my website since. This website was created using Bootstrap and my self-taught HTML/CSS and JavaScript skills.
+  link: https://github.com/RandyDeng/RandyDeng.github.io
+  image: assets/images/portfolio/html.png
+  alternative_link: randydeng.com
+
+- name: Pipelined Microarchitecture
+  date: Spring 2017
+  description: The LC-3b simulator is a C program that implements a 5-stage piplined microarchitecture of the LC-3b ISA. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. Programming the simulator required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. This application could be easily extended to take into account virtual memory, caching, and more.
+  link: https://github.com/RandyDeng/PipelinedArchitecture
+  image: assets/images/portfolio/pipeline.png
+  alternative_link: None
+
+- name: Autonomous DE2Bot
+  date: Fall 2016
+  description: Designing and programming an autonomous robot was both exciting and informative. As a 5 person team, we were in charge of interfacing with the DE2Bot's motors and ultrasonic radar finders to detect and tag objects within a particular field. Object shapes ranged from foam cubes, to buckets, to even other DE2Bots. What was most challenging was selecting a detection algorithm and division of labor. Instead of programming being the main focus, design choices and clear communication among team members were more important. Our team initially decided to use occupancy grid maps to generate a map of the arena, but due to hardware limitations (e.g. memory) and time constraints, we decided to use a simpler approach that kept track of the DE2Bot's location relative to its origin. Objects were detected and tagged on a first-come, first-serve basis, which worked very well.
+  link: https://github.com/nareddyt/ece2031-DE2-Robot
+  image: assets/images/portfolio/de2bot.png
+  alternative_link: None
+
+- name: Missile Command
+  date: Fall 2016
+  description: Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. I implemented this using an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler. Working on this project forced me to further develop my memory allocation and hardware debugging skills. I used a linked list to keep track of all player and enemy missiles on the screen, which meant I had to have good memory management skills if I didn't want errors to occur. Additionally, as with any embedded project, good wire management and organization was essential for smooth hardware debugging. The game featured multiple levels, multi-colored explosions, retro sound effects, high score rankings, level skipping, and more.
+  link: https://github.com/RandyDeng/Missile_Command
+  image: assets/images/portfolio/missile_command.png
+  alternative_link: None
+
+- name: Sunset Observation
+  date: Fall 2015
+  description: Although I love what I do as an engineer, it is important to have hobbies outside of the technical field. Astronomy is one of these hobbies and it was only recently I discovered how beautiful and fascinating it can be. It started with the <a href="assets/files/sunset_paper.pdf">sunset paper</a> I was assigned in my Solar Systems class and eventually led me to join the Astronomy Club. Every semester, the club goes on a camping trip to Deerlick Astronomy Village, a dark sky area where astronomers and astrophotographers gather to take pictures of the stars. At night, the Milky Way and thousands of stars are visible with the naked eye. I felt that this was a truly unique experience and have been going on semesterly camping trips ever since.
+  link: http://www.astronomyclub.gatech.edu
+  image: assets/images/portfolio/sunset.png
+  alternative_link: None
+
+- name: VIP Flapping Wing
+  date: Fall 2015, Spring 2016
+  description: Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with two other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break. While my team members were in charge of designing the wing, I was in charge of collecting and analyzing data using a load cell and Kalman Filter.
+  link: http://www.vip.gatech.edu/
+  image: assets/images/portfolio/vip_wing.png
+  alternative_link: None
+
+- name: SSVEP-based BCI Research
+  date: 2012 - 2015
+  description: As part of the Science Research Program at Ridgefield High School, I analyzed steady-state visually evoked potentials (SSVEP) using different checkerboard visual stimuli. I was under the mentorship of Dr. Dean Krusienski and his PhD students at Old Dominion University.
+  link: https://github.com/RandyDeng/SSVEP-BCI-Research
+  image: assets/images/portfolio/bci_eeg.png
+  alternative_link: None
+  awards:
+    - name: Connecticut Science and Engineering Fair
+      link: http://ctsciencefair.org/media/2015CS.pdf
+      description: Xerox Computer Science Awards - Senior High Finalist, Connecticut Association of Physics Teachers Award, IEEE Connecticut Section Honorable Mention (2015)
+    - name: Southern Connecticut Invitational Science & Engineering Fair
+      link: http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf
+      description: Third Place Physical Science Completed (2015)
+  articles:
+    - name: Ridgefield Press
+      link: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/
+      description: "Science symposium: Dark matter and mind reading (2014)"
+    - name: HamletHub
+      link: http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students
+      description: Teacher TV Show features outstanding RHS Science Students (2014)
+    - name: Ridgefield Now We're Talking
+      link: http://archive.theridgefieldpress.com/28800/science-students-on-education-tv/
+      description: Science students on education TV (2014)
+    - name: RHS Science Research
+      link: https://rhsresearchandinnovation.wordpress.com/
+      description: Student Perspective (2015)

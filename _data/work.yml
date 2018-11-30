@@ -1,0 +1,47 @@
+- company: GTRI CIPHER
+  position: Software Developer Student Assistant
+  date: August 2018 - Present
+  location: Atlanta, Georgia
+  link: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+  image: assets/images/portfolio/gtri.png
+  description: Details will be released soon!
+
+- company: Amazon
+  position: Software Developer Intern
+  date: May - August 2018
+  location: Seattle, Washington
+  link: https://www.amazon.com/
+  image: assets/images/portfolio/amazon.png
+  description: Details will be released soon!
+ 
+- company: GTRI CIPHER
+  position: Software Developer Student Assistant
+  date: January - May 2018
+  location: Atlanta, Georgia
+  link: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+  image: assets/images/portfolio/gtri.png
+  description: At GTRI I am a student assistant working part-time on the Apiary Project, an automated framework for malware analysis and threat intelligence. As we continue to rely more and more on technology for our daily needs, it becomes increasingly important to be aware of web security and detecting unwanted intrusions. I am excited to be working on this project and hope to help improve my own malware analysis skills while helping further Apiary's capabilities.
+
+- company: EuroAvionics USA
+  position: Software Developer Intern
+  date: May - August 2017
+  location: Sarasota, Florida
+  link: https://www.euroavionics.com/
+  image: assets/images/portfolio/euroavionics.png
+  description: Working with EuroAvionics has been one of the most challenging and rewarding experience thus far. As a software engineering intern, my team was tasked to develop a full stack data acquisition and monitor system to be used on airborne vehicles. My work involved working closely with the Linux Kernel to communicate through SMS, WLAN, and LTE in addition to using several network protocols to communicate with servers and aircraft systems. Ensuring that the whole system worked in a cohesive manner challenged me to make design choices that fulfilled all necessary requirements while keeping code structured and organized.
+
+- company: ASML
+  position: Software Test Engineer Intern
+  date: May - August 2016
+  location: Wilton, Connecticut
+  link: https://www.asml.com/asml
+  image: assets/images/portfolio/asml.png
+  description: Working at ASML challenged me to adapt. During my three month internship, I was required to work with a variety of data analysis tools, data acquisition tools, and hardware modules that I had never seen before. Using LabView, I created an application that allowed other test engineers to quickly acquire data from a variety of different hardware modules (analog/digital IO, accelerometer sensors, etc), saving a large amount of time and effort since many of the machines were inside a clean room. My biggest feeling of achievement this summer was when the application I created was used to test different hardware components and helped solve an issue with one of the testers.
+
+- company: Barden Corporation
+  position: Engineering Intern
+  date: June - August 2015
+  location: Danbury, Connecticut
+  link: https://www.bardenbearings.com
+  image: assets/images/portfolio/barden.png
+  description: Barden Corporation was my first work experience and one of the most unique as well. Barden Corporation is a ball bearing manufacturer that specializes in the design, manufacture, repair, and overhaul of aerospace and super precision ball bearings for safety-critical and harsh environment applications. My job involved working with a team of mechanical engineers to keep track of and update manufacturing documents. These included tasks such as updating blueprints to match current equipment, digitalizing documents and blueprints, and reflecting engineering change notices on the local database. I was also asked to gather measurement data for particular ball bearings as well.
