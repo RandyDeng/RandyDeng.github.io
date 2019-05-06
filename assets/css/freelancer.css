@@ -43,6 +43,7 @@ h6 {
     width: 50%;
     height: auto;
 }
+
 /* Default Color to Prevent Flicker */
 
 body {
@@ -101,7 +102,7 @@ header .intro-text .name {
     margin-bottom: -0.3em;
 }
 
-header .intro-text .skills {
+header .intro-text .title {
     font-size: 2.2em;
     font-weight: 300;
 }
@@ -111,10 +112,12 @@ header .intro-text .skills {
         padding-top: 140px;
         padding-bottom: 50px;
     }
+
     header .intro-text .name {
         font-size: 3.5em;
     }
-    header .intro-text .skills {
+
+    header .intro-text .title {
         font-size: 1.5em;
     }
 }
@@ -179,15 +182,18 @@ header .intro-text .skills {
         -moz-transition: padding 0.2s;
         transition: padding 0.2s;
     }
+
     .navbar-custom .navbar-brand {
         font-size: 1.5em;
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s;
     }
+
     .navbar-custom.affix {
         padding: 0px 0;
     }
+
     .navbar-custom.affix .navbar-brand {
         font-size: 1.5em;
     }
@@ -241,6 +247,7 @@ section.success {
     section {
         padding: 50px 0;
     }
+
     section.header {
         padding-top: 150px;
     }
@@ -320,21 +327,26 @@ section.success {
         margin-left: 1em;
         margin-right: 1em;
     }
+
     #portfolio .center {
         width: 30em;
         margin-left: -2em;
         text-align: left;
     }
+
     #portfolio .about-text {
         text-align: center;
     }
+
     #portfolio .about-text .title {
         text-align: center;
     }
+
     #portfolio .profile-spacing {
         display: block;
         margin: 0 auto;
     }
+
     #portfolio .about-text ul,
     #portfolio .about-text li {
         text-align: left;
