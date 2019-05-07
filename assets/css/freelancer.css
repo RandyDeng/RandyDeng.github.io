@@ -58,7 +58,7 @@ header {
     color: white;
     width: 100%;
     height: 100%;
-    background-image: url("../images/mainBG.png");
+    background-image: url("../images/banners/index.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,10 +217,29 @@ section.dark {
 section.header {
     text-align: center;
     color: white;
-    background-image: url("../images/mainBG.png");
-    background-position: 50% 10%;
     padding-top: 11em;
     padding-bottom: 8em;
+}
+
+section.about {
+    background-image: url("../images/banners/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.portfolio {
+    background-image: url("../images/banners/portfolio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 65%;
+}
+
+section.gallery {
+    background-image: url("../images/banners/gallery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
 }
 
 section.header h3 {

@@ -1,0 +1,19 @@
+---
+
+layout: default
+background: portfolio
+title: Portfolio
+subtitle: My professional experience as a developer and leader
+
+---
+
+<!--  Work Experience  -->
+<section class="light">
+    <div class="portfolio row">
+        {% for job in site.data.experience %}
+        <div class="portfolio-item col-md-3 col-sm-6 col-xs-12">
+            <img src={{ job.image }} class="img-responsive" alt={{ job.company }} />
+        </div>
+        {% endfor %}
+    </div>
+</section>

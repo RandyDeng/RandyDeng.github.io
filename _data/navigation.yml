@@ -1,11 +1,8 @@
 - name: About
   link: /about.html
 
-- name: Projects
-  link: /projects.html
-
-- name: Experience
-  link: /experience.html
+- name: Portfolio
+  link: /portfolio.html
 
 - name: Gallery
   link: /gallery.html
