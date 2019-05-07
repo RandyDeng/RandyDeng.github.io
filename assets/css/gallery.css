@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     object-fit: cover;
     transition: 0.1s;
+    padding-top: 0.3em;
 }
 
 .gallery img:hover {
