@@ -47,7 +47,7 @@ h6 {
 /* Default Color to Prevent Flicker */
 
 body {
-    background: #1D3557;
+    background: rgb(43, 43, 43);
 }
 
 /************************** HEADER **************************/
@@ -202,6 +202,7 @@ header .intro-text .title {
 /************************** SECTIONS **************************/
 section {
     padding: 50px 0;
+    text-align: center;
 }
 
 section h2 {
@@ -215,13 +216,11 @@ section h3.bracket {
     text-transform: capitalize;
 }
 
-section.project {
-    text-align: center;
+section.light {
     background: rgba(255, 255, 255, 1);
 }
 
-section.project2 {
-    text-align: center;
+section.dark {
     background: rgba(255, 255, 255, 0.9);
 }
 
@@ -354,72 +353,10 @@ section.success {
     }
 }
 
-/************************** GALLERY **************************/
-div.gallery {
-    float: left;
-}
-
-div.gallery-center {
-    text-align: center;
-}
-
-div.gallery:hover {
-    opacity: 1;
-}
-
-img.gallery {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3px;
-    width: 20em;
-    height: 20em;
-    background-position: center center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-}
-
-.gallery-text {
-    font-size: 1.2em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/************************** SOCIAL MEDIA BUTTONS **************************/
 hr.fancyline {
     width: 25em;
     border-style: solid;
     border-color: white;
     border-width: 1px 0 0 0;
     border-radius: 10px;
-}
-
-.btn-outline {
-    color: white;
-    font-size: 15px;
-    border: solid 2px white;
-    background: transparent;
-    transition: all 0.3s ease-in-out;
-    margin-top: 10px;
-}
-
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
-    color: #333333;
-    background: white;
-    border: solid 2px white;
-}
-
-.btn-social {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    border: 2px solid white;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
-    margin-top: -0.2em;
 }

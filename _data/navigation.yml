@@ -4,8 +4,11 @@
 - name: Projects
   link: /projects.html
 
-- name: Work
-  link: /work.html
+- name: Experience
+  link: /experience.html
+
+- name: Gallery
+  link: /gallery.html
 
 - name: Resume
   link: /assets/files/rrd_resume.pdf

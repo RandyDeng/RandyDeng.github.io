@@ -10,9 +10,9 @@ subtitle: Showcasing my technical expertise, personality, and hobbies
 {% for project in site.data.projects %}
 {% assign color = forloop.index | modulo:2 %}
 {% if color == 1 %}
-    <section class="project" id="portfolio">
+    <section class="light" id="portfolio">
 {% else %}
-    <section class="project2" id="portfolio">
+    <section class="dark" id="portfolio">
 {% endif %}
     <div class="row">
         <div class="col-sm-2"></div>

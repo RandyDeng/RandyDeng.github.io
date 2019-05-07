@@ -1,47 +1,56 @@
 - name: img1
-  link: assets/images/gallery/gallery1.png
+  link: assets/images/gallery/gallery1.jpg
 
 - name: img2
-  link: assets/images/gallery/gallery2.png
+  link: assets/images/gallery/gallery2.jpg
 
 - name: img3
-  link: assets/images/gallery/gallery3.png
+  link: assets/images/gallery/gallery3.jpg
 
 - name: img4
-  link: assets/images/gallery/gallery4.png
+  link: assets/images/gallery/gallery4.jpg
 
 - name: img5
-  link: assets/images/gallery/gallery5.png
+  link: assets/images/gallery/gallery5.jpg
 
 - name: img6
-  link: assets/images/gallery/gallery6.png
+  link: assets/images/gallery/gallery6.jpg
 
 - name: img7
-  link: assets/images/gallery/gallery7.png
+  link: assets/images/gallery/gallery7.jpg
 
 - name: img8
-  link: assets/images/gallery/gallery8.png
+  link: assets/images/gallery/gallery8.jpg
 
 - name: img9
-  link: assets/images/gallery/gallery9.png
+  link: assets/images/gallery/gallery9.jpg
 
 - name: img10
-  link: assets/images/gallery/gallery10.png
+  link: assets/images/gallery/gallery10.jpg
 
 - name: img11
-  link: assets/images/gallery/gallery11.png
+  link: assets/images/gallery/gallery11.jpg
 
 - name: img12
-  link: assets/images/gallery/gallery12.png
+  link: assets/images/gallery/gallery12.jpg
 
 - name: img13
-  link: assets/images/gallery/gallery13.png
+  link: assets/images/gallery/gallery13.jpg
 
 - name: img14
-  link: assets/images/gallery/gallery14.png
+  link: assets/images/gallery/gallery14.jpg
 
 - name: img15
-  link: assets/images/gallery/gallery15.png
+  link: assets/images/gallery/gallery15.jpg
 
 - name: img16
-  link: assets/images/gallery/gallery16.png
+  link: assets/images/gallery/gallery16.jpg
+
+- name: img17
+  link: assets/images/gallery/gallery17.jpg
+
+- name: img18
+  link: assets/images/gallery/gallery18.jpg
+
+- name: img19
+  link: assets/images/gallery/gallery19.jpg

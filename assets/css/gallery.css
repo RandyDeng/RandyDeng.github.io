@@ -1,0 +1,28 @@
+.gallery {
+    float: left;
+    text-align: center;
+    padding: 2em;
+}
+
+.gallery img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition: 0.1s;
+}
+
+.gallery img:hover {
+    -webkit-filter: grayscale(0%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.reduced {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    height: 25em;
+    width: 25em;
+}

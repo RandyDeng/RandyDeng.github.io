@@ -6,7 +6,7 @@ subtitle: Just a computer engineer with a passion for computers and technology
 
 ---
 
-<section class="project" id="portfolio">
+<section class="light" id="portfolio">
     <div class="row">
         <div class="col-sm-2"></div>
         <div class="col-sm-4 portfolio-item profile-spacing">
@@ -31,24 +31,4 @@ subtitle: Just a computer engineer with a passion for computers and technology
             </div>
         </div>
     </div>
-</section>
-
-<section class="project2">
-    <h2> Traveling and Photography go Hand in Hand </h2>
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-            <p class="gallery-text"> From cities to random forests, every photograph shows a place I've been to. <br> Below are some of my personal favorites: </p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="gallery-center">
-            {% for item in site.data.gallery %}
-                <a target="_blank" href={{ item.link }}>
-                    <img class="gallery" src={{ item.link }} alt="" width="300" height="300">
-                </a>
-            {% endfor %}
-        </div>
-    </div>
-
 </section>
