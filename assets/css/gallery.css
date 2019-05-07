@@ -1,7 +1,7 @@
 .gallery {
-    float: left;
+    float: center;
     text-align: center;
-    padding: 2em;
+    padding: 1em 2em 2em 2em;
 }
 
 .gallery img {
