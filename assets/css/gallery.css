@@ -1,15 +1,13 @@
 .gallery {
     float: center;
     text-align: center;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 6em 1em 6em;
 }
 
 .gallery img {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    background-position: center center;
-    background-repeat: no-repeat;
     object-fit: cover;
     transition: 0.1s;
     padding-top: 0.3em;
