@@ -1,3 +1,9 @@
+- name: Georgia Tech
+  position: Undergraduate, Graduate
+  date: 8/2015 - 8/2019
+  image: assets/images/experiences/gt.jpg
+  link: 
+  
 - name: GTRI CIPHER
   position: Graduate Research Assistant
   date: 1/2019 - 8/2019
@@ -14,12 +20,6 @@
   position: Software Developer Intern
   date: 5/2018 - 8/2018
   image: assets/images/experiences/amazon.jpg
-  link: 
-
-- name: Georgia Tech
-  position: Undergraduate, Graduate
-  date: 8/2015 - 8/2019
-  image: assets/images/experiences/gt.jpg
   link: 
  
 - name: GTRI CIPHER
