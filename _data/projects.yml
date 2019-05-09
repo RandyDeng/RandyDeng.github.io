@@ -22,12 +22,6 @@
   summary: A box that helps brighten up your Christmas
   link: 
 
-- name: Mandelbrot Set
-  date: 2017
-  image: assets/images/projects/mbset.png
-  summary: C++ implementation of Mandelbrot Set
-  link: 
-
 - name: Pipelined Microarchitecture
   date: 2017
   image: assets/images/projects/pipeline.png
@@ -40,18 +34,6 @@
   summary: Showcasing my expertise, interests, and personality
   link: 
 
-- name: Arduino Alarm Clock
-  date: 2016
-  image: assets/images/projects/alarm.jpg
-  summary: An additional alarm clock to help wake you up!
-  link: 
-
-- name: Autonomous DE2Bot
-  date: 2016
-  image: assets/images/projects/de2bot.png
-  summary: Robot that finds and tags objects within an arena
-  link: 
-
 - name: Missile Command
   date: 2016
   image: assets/images/projects/missile.jpg
@@ -62,12 +44,6 @@
   date: 2015 - 2016
   image: assets/images/projects/vip-wing.jpg
   summary: Designing and testing a mechanical wing for a mini blimp
-  link: 
-
-- name: Sunset Observation
-  date: 2015
-  image: assets/images/projects/sunset.jpg
-  summary: A fun experiment to observe sunsets for a whole semester
   link: 
 
 - name: SSVEP-based BCI Research

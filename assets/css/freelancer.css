@@ -92,34 +92,27 @@ header .text-vertical-center {
     vertical-align: middle;
 }
 
-header .intro-text {
+header .text-vertical-center .intro-text {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header .intro-text .name {
+header .text-vertical-center .intro-text .name {
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 4em;
     margin-bottom: -0.3em;
 }
 
-header .intro-text .title {
-    font-size: 2.2em;
-    font-weight: 300;
+header .text-vertical-center .intro-text .title {
+    font-size: 2.5em;
+    font-weight: 200;
 }
 
-@media (min-width: 300px) {
-    header .container {
-        padding-top: 140px;
-        padding-bottom: 50px;
-    }
-
-    header .intro-text .name {
-        font-size: 3.5em;
-    }
-
-    header .intro-text .title {
-        font-size: 1.5em;
-    }
+hr.fancyline {
+    width: 30em;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px 0 0 0;
+    border-radius: 10px;
 }
 
 /************************** NAVIGATION **************************/
@@ -127,7 +120,7 @@ header .intro-text .title {
     background: rgba(0, 0, 0, 0.1);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border: 0.1px white;
 }
 
@@ -171,7 +164,7 @@ header .intro-text .title {
 
 .navbar .navbar-toggle {
     color: white;
-    font-size: 12px;
+    font-size: 0.7em;
     border-color: white;
 }
 
@@ -216,8 +209,10 @@ section.dark {
 section.header {
     text-align: center;
     color: white;
-    padding-top: 11em;
-    padding-bottom: 8em;
+    padding-top: 12%;
+    padding-bottom: 9%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 section.about {
@@ -241,9 +236,14 @@ section.gallery {
     background-position: 50% 40%;
 }
 
+section.header h2 {
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
 section.header h3 {
-    font-size: 3em;
-    text-decoration: bold;
+    font-size: 2em;
+    font-weight: 200;
 }
 
 @media (max-width: 500px) {
@@ -254,12 +254,4 @@ section.header h3 {
     section.header {
         padding-top: 150px;
     }
-}
-
-hr.fancyline {
-    width: 25em;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px 0 0 0;
-    border-radius: 10px;
 }

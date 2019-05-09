@@ -1,6 +1,13 @@
 .portfolio {
     text-align: center;
-    padding: 1em 8em 1em 8em;
+    padding: 1em 10% 1em 10%;
+}
+
+.portfolio h1 {
+    font-size: 3em;
+    font-weight: 500;
+    padding: 0.2em 0em 0em 0em;
+    margin-bottom: -0.5em;
 }
 
 .portfolio .portfolio-item {
@@ -9,7 +16,7 @@
     position: relative;
     text-align: center;
     color: white;
-    padding: 1.5em 1.5em 1.5em 1.5em;
+    padding: 1em 1em 1em 1em;
     transition: 0.3s;
 }
 
