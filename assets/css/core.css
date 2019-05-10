@@ -2,15 +2,12 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     overflow-x: hidden;
     height: 100%;
-    margin: 0;
-
     /* Default Color to Prevent Flicker */
-    background: rgb(43, 43, 43);
+    background: rgba(82, 82, 82, 0.3);
 }
 
 html {
     height: 100%;
-    margin: 0;
     background-color: black;
     overflow-x: hidden;
 }
@@ -112,6 +109,13 @@ section.light {
 
 section.dark {
     background: rgba(255, 255, 255, 0.9);
+}
+
+section.footer {
+    background: #1b1919;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #313030, #1b1919);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #313030, #1b1919); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
 
 section.header {

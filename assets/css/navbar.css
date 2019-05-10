@@ -1,12 +1,21 @@
 .navbar {
-    background: rgba(0, 0, 0, 0.1);
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
+    display: inline-block;
+    list-style-type: none;
+    float: none;
     font-size: 1.5em;
     padding: 0.6em 1em 0.5em 1em;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
+}
+
+.navbar-background {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-small {
+    margin-top: -1em;
+    margin-bottom: -1em;
 }
 
 .navbar a {
@@ -16,7 +25,6 @@
 }
 
 .navbar .navbar-brand {
-    position: relative;
     font-size: 1.4em;
     left: 0.5em;
     top: 0em;
@@ -46,7 +54,6 @@
 }
 
 .navbar a:hover:before {
-    color: white;
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);

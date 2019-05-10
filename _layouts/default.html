@@ -11,3 +11,37 @@ layout: base
 </section>
 
 {{ content }}
+
+<section class="footer">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1>Keep In Touch</h1>
+            <p>I'm always down to grab some lunch and chat</p>
+        </div>
+    </div>
+    <hr class="fancyline">
+
+    <div class="row">
+        <nav class="navbar">
+            <ul class="nav navbar-nav navbar-small">
+                {% for nav in site.data.navigation %}
+                <li>
+                    <a href={{ nav.link }}> {{ nav.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="footer-media">
+            {% include media.html %}
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright <b>Randy Deng</b>
+        </div>
+    </div>
+</section>
