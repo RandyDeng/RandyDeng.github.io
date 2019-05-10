@@ -11,9 +11,9 @@ subtitle: A brief visual history of the places life has taken me
 <section class="light">
     <div class="row">
         <div class="gallery">
-            {% for item in site.data.gallery %}
-            <a target="_blank" href="{{ item.link }}">
-                <img class="reduced" src={{ item.link }} alt={{ item.name }}>
+            {% for pic in site.data.gallery %}
+            <a target="_blank" href="{{ pic.link2 }}">
+                <img class="reduced" src={{ pic.link }} alt={{ pic.name }}>
             </a>
             {% endfor %}
         </div>

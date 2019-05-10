@@ -1,56 +1,76 @@
-- name: img1
-  link: assets/images/gallery/gallery1.jpg
-
-- name: img2
-  link: assets/images/gallery/gallery2.jpg
-
-- name: img3
-  link: assets/images/gallery/gallery3.jpg
-
-- name: img4
-  link: assets/images/gallery/gallery4.jpg
-
-- name: img5
-  link: assets/images/gallery/gallery5.jpg
-
-- name: img6
-  link: assets/images/gallery/gallery6.jpg
-
-- name: img7
-  link: assets/images/gallery/gallery7.jpg
-
-- name: img8
-  link: assets/images/gallery/gallery8.jpg
-
-- name: img9
-  link: assets/images/gallery/gallery9.jpg
-
-- name: img10
-  link: assets/images/gallery/gallery10.jpg
-
-- name: img11
-  link: assets/images/gallery/gallery11.jpg
-
-- name: img12
-  link: assets/images/gallery/gallery12.jpg
-
-- name: img13
-  link: assets/images/gallery/gallery13.jpg
-
-- name: img14
-  link: assets/images/gallery/gallery14.jpg
-
-- name: img15
+- name: gallery15.jpg
   link: assets/images/gallery/gallery15.jpg
+  link2: assets/images/gallery_fullsize/gallery15.jpg
 
-- name: img16
+- name: gallery3.jpg
+  link: assets/images/gallery/gallery3.jpg
+  link2: assets/images/gallery_fullsize/gallery3.jpg
+
+- name: gallery7.jpg
+  link: assets/images/gallery/gallery7.jpg
+  link2: assets/images/gallery_fullsize/gallery7.jpg
+
+- name: gallery9.jpg
+  link: assets/images/gallery/gallery9.jpg
+  link2: assets/images/gallery_fullsize/gallery9.jpg
+
+- name: gallery11.jpg
+  link: assets/images/gallery/gallery11.jpg
+  link2: assets/images/gallery_fullsize/gallery11.jpg
+
+- name: gallery8.jpg
+  link: assets/images/gallery/gallery8.jpg
+  link2: assets/images/gallery_fullsize/gallery8.jpg
+
+- name: gallery16.jpg
   link: assets/images/gallery/gallery16.jpg
+  link2: assets/images/gallery_fullsize/gallery16.jpg
 
-- name: img17
-  link: assets/images/gallery/gallery17.jpg
+- name: gallery12.jpg
+  link: assets/images/gallery/gallery12.jpg
+  link2: assets/images/gallery_fullsize/gallery12.jpg
 
-- name: img18
+- name: gallery14.jpg
+  link: assets/images/gallery/gallery14.jpg
+  link2: assets/images/gallery_fullsize/gallery14.jpg
+
+- name: gallery1.jpg
+  link: assets/images/gallery/gallery1.jpg
+  link2: assets/images/gallery_fullsize/gallery1.jpg
+
+- name: gallery18.jpg
   link: assets/images/gallery/gallery18.jpg
+  link2: assets/images/gallery_fullsize/gallery18.jpg
 
-- name: img19
+- name: gallery10.jpg
+  link: assets/images/gallery/gallery10.jpg
+  link2: assets/images/gallery_fullsize/gallery10.jpg
+
+- name: gallery5.jpg
+  link: assets/images/gallery/gallery5.jpg
+  link2: assets/images/gallery_fullsize/gallery5.jpg
+
+- name: gallery13.jpg
+  link: assets/images/gallery/gallery13.jpg
+  link2: assets/images/gallery_fullsize/gallery13.jpg
+
+- name: gallery2.jpg
+  link: assets/images/gallery/gallery2.jpg
+  link2: assets/images/gallery_fullsize/gallery2.jpg
+
+- name: gallery4.jpg
+  link: assets/images/gallery/gallery4.jpg
+  link2: assets/images/gallery_fullsize/gallery4.jpg
+
+- name: gallery19.jpg
   link: assets/images/gallery/gallery19.jpg
+  link2: assets/images/gallery_fullsize/gallery19.jpg
+
+- name: gallery6.jpg
+  link: assets/images/gallery/gallery6.jpg
+  link2: assets/images/gallery_fullsize/gallery6.jpg
+
+- name: gallery17.jpg
+  link: assets/images/gallery/gallery17.jpg
+  link2: assets/images/gallery_fullsize/gallery17.jpg
+

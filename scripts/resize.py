@@ -1,7 +1,12 @@
+"""
+Crops and resizes all images in specified folder.
+Cropped size and folder path can be changed in the code.
+"""
+
 import cv2
 import os
 
-folder = 'assets/images/ttes'
+folder = 'assets/images/gallery'
 root = os.path.dirname(os.getcwd())
 
 img_path = os.path.join(root, folder)
