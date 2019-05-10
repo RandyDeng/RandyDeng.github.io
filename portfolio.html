@@ -40,7 +40,7 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
         <div class="col-sm-10">
             <h1> Personal Projects </h1>
             {% for project in site.data.projects %}
-            <a href="project.link">
+            <a href="{{ project.link }}">
                 <div class="portfolio-item">
                     <img src={{ project.image }} class="img-responsive" alt={{ project.company }} />
                     <div class="portfolio-title">
