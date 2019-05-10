@@ -160,6 +160,9 @@ section.header h3 {
     }
 
     section.header {
-        padding-top: 150px;
+        margin-left: -5em;
+        margin-right: -5em;
+        padding-top: 10em;
+        padding-bottom: 10em;
     }
 }

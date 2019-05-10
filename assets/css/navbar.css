@@ -74,3 +74,16 @@
         font-size: 1.2em;
     }
 }
+
+@media (max-width: 500px) {
+    .navbar {
+        font-size: 1.2em;
+    }
+    .navbar .navbar-brand {
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s;
+        left: 1em;
+        top: 0.2em;
+    }
+}

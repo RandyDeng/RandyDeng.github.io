@@ -1,5 +1,5 @@
 .about-me {
-    padding: 0 10% 0 10%;
+    padding: 2% 10% 2% 10%;
     text-align: left;
 }
 
@@ -18,6 +18,10 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: -1em;
+}
+
+.about-me .about-me-shifted {
+    margin-top: -5%;
 }
 
 .about-me .about-img {
