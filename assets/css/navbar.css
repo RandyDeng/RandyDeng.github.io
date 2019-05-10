@@ -3,18 +3,26 @@
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
     font-size: 1.5em;
-    border: 0.1px white;
+    padding: 0.6em 1em 0.5em 1em;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s;
 }
 
 .navbar a {
     color: white;
     letter-spacing: 1px;
+    max-width: 8em;
 }
 
 .navbar .navbar-brand {
     position: relative;
+    font-size: 1.4em;
     left: 0.5em;
     top: 0em;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 .navbar a:before {
@@ -28,8 +36,8 @@
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .navbar .navbar-nav li a:hover,
@@ -50,35 +58,11 @@
     border-color: white;
 }
 
-
-@media (min-width: 500px) {
-    .navbar {
-        padding: 0.6em 1em 0.5em 1em;
-        -webkit-transition: padding 0.2s;
-        -moz-transition: padding 0.2s;
-        transition: padding 0.2s;
-    }
-
-    .navbar .navbar-brand {
-        font-size: 1.2em;
-        -webkit-transition: all 0.2s;
-        -moz-transition: all 0.2s;
-        transition: all 0.2s;
-    }
-
-    .navbar.affix {
-        padding-bottom: -1em;
-    }
-
-    .navbar.affix .navbar-brand {
-        font-size: 1.2em;
-    }
-}
-
 @media (max-width: 500px) {
     .navbar {
         font-size: 1.2em;
     }
+
     .navbar .navbar-brand {
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;

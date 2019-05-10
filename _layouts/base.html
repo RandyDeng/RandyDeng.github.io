@@ -48,7 +48,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="page-scroll">
+                    <li>
                         <a class="navbar-brand" href="/">
                             Randy Deng
                         </a>
@@ -60,7 +60,7 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     {% for nav in site.data.navigation %}
-                    <li class="page-scroll">
+                    <li>
                         <a href={{ nav.link }}> {{ nav.name }}</a>
                     </li>
                     {% endfor %}
