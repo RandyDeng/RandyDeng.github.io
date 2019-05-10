@@ -8,48 +8,55 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
 ---
 
 <section class="light">
-    <div class="portfolio">
-        <div class="row">
-            <h1> Professional Experiences </h1>
-        </div>
-    </div>
     <div class="row">
-        <div class="portfolio">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h1> Professional Experiences </h1>
             {% for exp in site.data.experiences %}
             <a href="{{ exp.link }}">
                 <div class="portfolio-item">
                     <img src={{ exp.image }} class="img-responsive" alt={{ exp.name }} />
-                    <div class="portfolio-description">
+                    <div class="portfolio-title">
                         <h2> {{ exp.name }} </h2>
-                        <h3> {{ exp.position }} </h3>
-                        <p> {{ exp.date }} </p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-description">
+                            <h2> {{ exp.name }} </h2>
+                            <h3> {{ exp.position }} </h3>
+                            <p> {{ exp.date }} </p>
+                        </div>
                     </div>
                 </div>
             </a>
             {% endfor %}
         </div>
+        <div class="col-sm-1"></div>
     </div>
 </section>
+
 <section class="dark">
-    <div class="portfolio">
-        <div class="row">
-            <h1> Personal Projects </h1>
-        </div>
-    </div>
     <div class="row">
-        <div class="portfolio">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h1> Personal Projects </h1>
             {% for project in site.data.projects %}
-            <a href="#">
+            <a href="project.link">
                 <div class="portfolio-item">
                     <img src={{ project.image }} class="img-responsive" alt={{ project.company }} />
-                    <div class="portfolio-description">
+                    <div class="portfolio-title">
                         <h2> {{ project.name }} </h2>
-                        <h3> {{ project.summary }}</h3>
-                        <p> {{ project.date }} </p>
+                    </div>
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-description">
+                            <h2> {{ project.name }} </h2>
+                            <h3> {{ project.summary }} </h3>
+                            <p> {{ project.date }} </p>
+                        </div>
                     </div>
                 </div>
             </a>
             {% endfor %}
         </div>
+        <div class="col-sm-1"></div>
     </div>
 </section>
