@@ -65,14 +65,20 @@
     
     .about {
         background-image: url("../images/banners/about.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .portfolio {
         background-image: url("../images/banners/portfolio.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .gallery {
         background-image: url("../images/banners/gallery.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .footer {
