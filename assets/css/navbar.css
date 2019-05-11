@@ -74,7 +74,7 @@
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         transition: all 0.2s;
-        left: 1em;
-        top: 0.2em;
+        left: 0.4em;
+        top: 0.1em;
     }
 }
