@@ -7,10 +7,9 @@ subtitle: A brief visual history of the places life has taken me
 
 ---
 
-<!--  Projects Grid Section  -->
-<section class="light">
-    <div class="row">
-        <div class="gallery">
+<div class="section">
+    <div class="light1">
+        <div class="gallery-me">
             {% for pic in site.data.gallery %}
             <a target="_blank" href="{{ pic.link2 }}">
                 <img class="reduced" src={{ pic.link }} alt={{ pic.name }}>
@@ -18,4 +17,4 @@ subtitle: A brief visual history of the places life has taken me
             {% endfor %}
         </div>
     </div>
-</section>
+</div>

@@ -7,22 +7,21 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
 
 ---
 
-<section class="light">
-    <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10">
-            <h1> Professional Experiences </h1>
+<div class="section">
+    <div class="light1">
+        <div class="portfolio-me">
+            <h2> Professional Experiences </h2>
             {% for exp in site.data.experiences %}
             <a href="{{ exp.link }}">
                 <div class="portfolio-item">
                     <img src={{ exp.image }} class="img-responsive" alt={{ exp.name }} />
                     <div class="portfolio-title">
-                        <h2> {{ exp.name }} </h2>
+                        <h3> {{ exp.name }} </h3>
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-description">
-                            <h2> {{ exp.name }} </h2>
-                            <h3> {{ exp.position }} </h3>
+                            <h3> {{ exp.name }} </h3>
+                            <p> {{ exp.position }} </p>
                             <p> {{ exp.date }} </p>
                         </div>
                     </div>
@@ -30,26 +29,24 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
             </a>
             {% endfor %}
         </div>
-        <div class="col-sm-1"></div>
     </div>
-</section>
+</div>
 
-<section class="dark">
-    <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10">
-            <h1> Personal Projects </h1>
+<div class="section">
+    <div class="light2">
+        <div class="portfolio-me">
+            <h2> Personal Projects </h2>
             {% for project in site.data.projects %}
             <a href="{{ project.link }}">
                 <div class="portfolio-item">
                     <img src={{ project.image }} class="img-responsive" alt={{ project.company }} />
                     <div class="portfolio-title">
-                        <h2> {{ project.name }} </h2>
+                        <h3> {{ project.name }} </h3>
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-description">
-                            <h2> {{ project.name }} </h2>
-                            <h3> {{ project.summary }} </h3>
+                            <h3> {{ project.name }} </h3>
+                            <p> {{ project.summary }} </p>
                             <p> {{ project.date }} </p>
                         </div>
                     </div>
@@ -57,6 +54,5 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
             </a>
             {% endfor %}
         </div>
-        <div class="col-sm-1"></div>
     </div>
-</section>
+</div>

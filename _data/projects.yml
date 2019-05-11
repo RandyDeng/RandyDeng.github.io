@@ -49,7 +49,7 @@
 - name: SSVEP-based BCI Research
   date: 2012 - 2015
   image: assets/images/projects/ssvep.jpg
-  summary: Research project using EEGs to record human response to different SSVEP stimuli
+  summary: Researching SSVEP brain signals using different visual stimuli and EEGs
   link: 
   awards:
     - name: Connecticut Science and Engineering Fair
