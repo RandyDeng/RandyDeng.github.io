@@ -86,7 +86,7 @@
         background: -webkit-linear-gradient(to right, $primary-dark1, $primary-dark2);
         background: linear-gradient(to right, $primary-dark1, $primary-dark2);
         color: white;
-        padding: 1em 0 1em 0;
+        padding: 1em 1em 1em 1em;
     }
 }
 
@@ -210,7 +210,7 @@
 }
 
 hr.fancyline {
-    width: 30em;
+    max-width: 30em;
     border-style: solid;
     border-color: white;
     border-width: 2px 0 0 0;
