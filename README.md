@@ -1,9 +1,13 @@
-# [My Personal Website](http://randydeng.com/)
+# [My Personal Website](randydeng.com)
 
-My personal website showcases my experience, values, and interests. The original website was built in September 2016 using wordpress.com to hold information on projects I completed. However, I discovered that it was difficult to update my website and express myself through WordPress.
+Hello! My website is here to primarily showcase who I am as a person and also as an interactive resume of sorts. It allows me to express my values and thoughts and establish myself on my own little corner of the internet.
 
-In May 2017, I decided to host a new personal website on GitHub to facilitate easier and faster updates. I created this website using Bootstrap and my self-taught HTML/CSS skills.
+My original website was made in 2016 using wordpress.com to simply hold some information on projects I completed. I wasn't really good at web design at the time, but I wanted to try expanding my knowledge in the front-end domain. It was a rough start (and a rough website) at the start, but it got me started and I had something up and running by the end of it.
 
-## Creator
+In 2017, I decided to host a new personal website on GitHub to facilitate easier and faster updates. One thing spiraled into another and I learned HTML, CSS, some basic Javascript, and even began using Jekyll, GitHub's static site generator. Along the way I continued to try and improve my website in both design and also modularity.
 
-This website was created by myself and the help of a lot of online resources. Big thanks to Bootstrap for getting me started with a template and all the wonderful HTML/CSS guides online. :)
+In 2019 I wanted to try moving from CSS to SCSS to make my code more modular and clean. At the same time, I also began writing a lot more custom SCSS and started using Bootstrap less in favor of my own custom styles. The result is the website you see here today! If you'd like to chat, feel free to send me a message or any suggestions you might have. Hope you enjoy the site!
+
+## Other
+
+This website was created using HTML, CSS/SCSS, Jekyll, and minimal JavaScript.
