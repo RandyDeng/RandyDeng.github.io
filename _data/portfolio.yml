@@ -1,0 +1,140 @@
+experiences:
+    Georgia Tech: 
+        name: Georgia Tech
+        position: Undergraduate, Graduate
+        date: 8/2015 - 8/2019
+        image: /assets/images/experiences/gt.jpg
+        link: portfolio/gt.html
+
+    GTRI CIPHER 2:  
+        name: GTRI CIPHER
+        position: Graduate Research Assistant
+        date: 1/2019 - 8/2019
+        image: /assets/images/experiences/gtri.png
+        link: 
+
+    The Hive Makerspace:
+        name: The Hive Makerspace
+        position: President
+        date: 5/2018 - 4/2019
+        image: /assets/images/experiences/thehive.jpg
+        link: 
+
+    Amazon:
+        name: Amazon
+        position: Software Engineer Intern
+        date: 5/2018 - 8/2018
+        image: /assets/images/experiences/amazon.jpg
+        link: 
+  
+    GTRI CIPHER 1:
+        name: GTRI CIPHER
+        position: Software Engineer Student Assistant
+        date: 1/2018 - 5/2018<br>8/2018 - 12/2018
+        image: /assets/images/experiences/gtri.png
+        link: 
+
+    EuroAvionics USA:
+        name: EuroAvionics USA
+        position: Software Engineer Intern
+        date: 5/2017 - 8/2017
+        image: /assets/images/experiences/euroavionics.png
+        link: 
+
+    ASML:
+        name: ASML
+        position: Software Test Engineer Intern
+        date: 5/2016 - 8/2016
+        image: /assets/images/experiences/asml.jpg
+        link: 
+
+    Barden Corporation:
+        name: Barden Corporation
+        position: Engineering Intern
+        date: 6/2015 - 8/2015
+        image: /assets/images/experiences/barden.jpg
+        link: 
+
+projects:
+    Nanoscale Barcode Identification:
+        name: Nanoscale Barcode Identification
+        date: 2019
+        image: /assets/images/projects/barcode.jpg
+        summary: Research project using machine learning for DNA tagging
+        link: 
+
+    Quotebook:
+        name: Quotebook
+        date: 2017
+        image: /assets/images/projects/quotebook.png
+        summary: Web app built using AWS and Python Flask
+        link:
+
+    Struct:
+        name: Struct
+        date: 2017
+        image: /assets/images/projects/struct.png
+        summary: HackGT project to help visualize codebases
+        link: 
+
+    Christmas in a Box:
+        name: Christmas in a Box
+        date: 2017
+        image: /assets/images/projects/christmasbox.jpg
+        summary: A box that helps brighten up your Christmas
+        link: 
+
+    Pipelined Microarchitecture:
+        name: Pipelined Microarchitecture
+        date: 2017
+        image: /assets/images/projects/pipeline.png
+        summary: C implementation of LC3b computer architecture
+        link: 
+
+    randydeng.com:
+        name: randydeng.com
+        date: 2017 - Present
+        image: /assets/images/projects/website.png
+        summary: Showcasing my expertise, interests, and personality
+        link: 
+
+    Missile Command:
+        name: Missile Command
+        date: 2016
+        image: /assets/images/projects/missile.jpg
+        summary: A microcontroller that lets you play a video game classic
+        link: 
+
+    VIP Flapping Wing Research:
+        name: VIP Flapping Wing Research
+        date: 2015 - 2016
+        image: /assets/images/projects/vip-wing.jpg
+        summary: Designing and testing a mechanical wing for a mini blimp
+        link: 
+        
+    SSVEP-based BCI Research:
+        name: SSVEP-based BCI Research
+        date: 2012 - 2015
+        image: /assets/images/projects/ssvep.jpg
+        summary: Researching SSVEP brain signals using different visual stimuli and EEGs
+        link: 
+        awards:
+            - name: Connecticut Science and Engineering Fair
+              link: http://ctsciencefair.org/media/2015CS.pdf
+              description: Xerox Computer Science Awards - Senior High Finalist, Connecticut Association of Physics Teachers Award, IEEE Connecticut Section Honorable Mention (2015)
+            - name: Southern Connecticut Invitational Science & Engineering Fair
+              link: http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf
+              description: Third Place Physical Science Completed (2015)
+              articles:
+            - name: Ridgefield Press
+              link: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/
+              description: "Science symposium: Dark matter and mind reading (2014)"
+            - name: HamletHub
+              link: http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students
+              description: Teacher TV Show features outstanding RHS Science Students (2014)
+            - name: Ridgefield Now We're Talking
+              link: http://archive.theridgefieldpress.com/28800/science-students-on-education-tv/
+              description: Science students on education TV (2014)
+            - name: RHS Science Research
+              link: https://rhsresearchandinnovation.wordpress.com/
+              description: Student Perspective (2015)
