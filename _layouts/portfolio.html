@@ -4,8 +4,11 @@ layout: default
 
 ---
 
-{% assign item = page.item %}
-{% assign item = site.data.portfolio.experiences[item] %}
+{% assign name = page.item %}
+{% assign item = site.data.portfolio.experiences[name] %}
+{% if item == nil%}
+{% assign item = site.data.portfolio.projects[name] %}
+{% endif %}
 
 <div class="section">
     <div class="light1">
