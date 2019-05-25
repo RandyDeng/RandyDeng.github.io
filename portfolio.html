@@ -13,7 +13,7 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
             <h2> Professional Experiences </h2>
             {% for item in site.data.portfolio.experiences %}
             {% assign exp = item[1] %}
-            <a href="{{ exp.link }}">
+            <a href="{{ exp.page }}">
                 <div class="portfolio-item">
                     <img src={{ exp.image }} class="img-responsive" alt={{ exp.name }} />
                     <div class="portfolio-title">
@@ -39,7 +39,7 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
             <h2> Personal Projects </h2>
             {% for item in site.data.portfolio.projects %}
             {% assign project = item[1] %}
-            <a href="{{ project.link }}">
+            <a href="{{ project.page }}">
                 <div class="portfolio-item">
                     <img src={{ project.image }} class="img-responsive" alt={{ project.company }} />
                     <div class="portfolio-title">

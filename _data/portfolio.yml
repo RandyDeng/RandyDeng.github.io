@@ -1,140 +1,277 @@
 experiences:
-    Georgia Tech: 
-        name: Georgia Tech
-        position: Undergraduate, Graduate
-        date: 8/2015 - 8/2019
-        image: /assets/images/experiences/gt.jpg
-        link: portfolio/gt.html
+  Georgia Tech:
+    name: Georgia Tech
+    position: Undergraduate, Graduate
+    date: 8/2015 - 8/2019
+    image: /assets/images/experiences/gt.jpg
+    page: portfolio/gt.html
+    description: some description
+    links:
+      - name: Georgia Tech Website
+        ref: https://www.gatech.edu/
+    press:
+      - name: Georgia Tech Opens New Makerspace
+        ref: https://www.news.gatech.edu/2018/09/27/georgia-tech-opens-newest-student-makerspace
+    awards:
+    honors:
+      - name: Georgia Tech Highest Honors
+        ref: http://www.commencement.gatech.edu/sites/default/files/documents/n19c10502d-commencement-prog-fall_0.pdf
+      - name: Eta Kappa Nu (HKN) ECE Honor Society
+        ref: http://hkn.gtorg.gatech.edu/index.html
 
-    GTRI CIPHER 2:  
-        name: GTRI CIPHER
-        position: Graduate Research Assistant
-        date: 1/2019 - 8/2019
-        image: /assets/images/experiences/gtri.png
-        link: 
+  GTRI CIPHER 2:
+    name: GTRI CIPHER
+    position: Graduate Research Assistant
+    date: 1/2019 - 8/2019
+    image: /assets/images/experiences/gtri.png
+    page: portfolio/gtri2.html
+    description: some description
+    links:
+      - name: GTRI CIPHER Website
+        ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+    press:
+    awards:
+    honors:
 
-    The Hive Makerspace:
-        name: The Hive Makerspace
-        position: President
-        date: 5/2018 - 4/2019
-        image: /assets/images/experiences/thehive.jpg
-        link: 
+  The Hive Makerspace:
+    name: The Hive Makerspace
+    position: President
+    date: 5/2018 - 4/2019
+    image: /assets/images/experiences/thehive.jpg
+    page: portfolio/thehive.html
+    description: some description
+    links:
+      - name: The Hive Website
+        ref: https://hive.ece.gatech.edu/
+      - name: Van Leer Interdisciplinary Design Commons
+        ref: https://www.ece.gatech.edu/interdisciplinary-design-commons
+    press:
+      - name: ECE Themed Makerspace Opens in Van Leer
+        ref: http://nique.net/news/2018/10/16/ece-themed-makerspace-opens-in-van-leer/
+      - name: Interdisciplinary Design Commons Dedication Speeches
+        ref: https://mediaspace.gatech.edu/media/IDC+Dedication+%28Sept.+27%2C+2018%29/1_imwkixoi
+      - name: Georgia Tech Opens Newest Makerspace
+        ref: https://www.news.gatech.edu/2018/09/27/georgia-tech-opens-newest-student-makerspace
+      - name: New Student Makerspace at Georgia Tech
+        ref: https://www.ece.gatech.edu/news/612063/georgia-tech-opens-newest-student-makerspace
+      - name: Georgia Tech Students Collaborate with Lime
+        ref: https://www.li.me/second-street/atlanta-upcycling-lime-georgia-tech-students-new-life-scooters
+    awards:
+    honors:
+      - name: School Chair of ECE Honors Student Contributions to The Hive
+        ref: https://www.ece.gatech.edu/news/621061/ece-faculty-staff-and-students-honored-2019-roger-p-webb-awards-program
 
-    Amazon:
-        name: Amazon
-        position: Software Engineer Intern
-        date: 5/2018 - 8/2018
-        image: /assets/images/experiences/amazon.jpg
-        link: 
-  
-    GTRI CIPHER 1:
-        name: GTRI CIPHER
-        position: Software Engineer Student Assistant
-        date: 1/2018 - 5/2018<br>8/2018 - 12/2018
-        image: /assets/images/experiences/gtri.png
-        link: 
+  Amazon:
+    name: Amazon
+    position: Software Engineer Intern
+    date: 5/2018 - 8/2018
+    image: /assets/images/experiences/amazon.jpg
+    page: portfolio/amazon.html
+    description: some description
+    links:
+      - name: Amazon AWS Kinesis Website
+        ref: https://aws.amazon.com/kinesis/
+    press:
+    awards:
+    honors:
 
-    EuroAvionics USA:
-        name: EuroAvionics USA
-        position: Software Engineer Intern
-        date: 5/2017 - 8/2017
-        image: /assets/images/experiences/euroavionics.png
-        link: 
+  GTRI CIPHER 1:
+    name: GTRI CIPHER
+    position: Software Engineer Student Assistant
+    date: 1/2018 - 5/2018<br>8/2018 - 12/2018
+    image: /assets/images/experiences/gtri.png
+    page: portfolio/gtri1.html
+    description: some description
+    links:
+      - name: GTRI CIPHER Website
+        ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+      - name: Apiary Project Website
+        ref: http://apiary.gtri.gatech.edu/
+    press:
+    awards:
+    honors:
 
-    ASML:
-        name: ASML
-        position: Software Test Engineer Intern
-        date: 5/2016 - 8/2016
-        image: /assets/images/experiences/asml.jpg
-        link: 
+  EuroAvionics USA:
+    name: EuroAvionics USA
+    position: Software Engineer Intern
+    date: 5/2017 - 8/2017
+    image: /assets/images/experiences/euroavionics.png
+    page: portfolio/euroavionics.html
+    description: Working with EuroAvionics has been one of the most challenging and rewarding experience thus far. As a software engineering intern, my team was tasked to develop a full stack data acquisition and monitoring system to be used on airborne vehicles. My work involved working closely with the Linux Kernel to communicate through SMS, WLAN, and LTE in addition to using several network protocols to communicate with servers and aircraft systems. A front-end containing configuration options, Java back-end, and custom aircraft hardware were some of the core components of our system. Ensuring that the whole system worked in a cohesive manner challenged me to make design choices that fulfilled all necessary requirements while keeping code structured and organized.
+    links:
+      - name: EuroAvionics Website
+        ref: https://www.euroavionics.com/
+    press:
+    awards:
+    honors:
 
-    Barden Corporation:
-        name: Barden Corporation
-        position: Engineering Intern
-        date: 6/2015 - 8/2015
-        image: /assets/images/experiences/barden.jpg
-        link: 
+  ASML:
+    name: ASML
+    position: Software Test Engineer Intern
+    date: 5/2016 - 8/2016
+    image: /assets/images/experiences/asml.jpg
+    page: portfolio/asml.html
+    description: Working at ASML challenged me to adapt. During my three month internship, I was required to work with a variety of data analysis tools, data acquisition tools, and hardware modules that I had never seen before. Using LabView, I created an application that enabled other engineers to quickly acquire data from a variety of different hardware modules (analog/digital IO, accelerometer sensors, temperature sensors, etc). This saved many days worth of effort since many of the machines were inside a clean room. My biggest feeling of achievement this summer was when the application I created was used to help debug a wiring issue in another machine.
+    links:
+      - name: ASML Website
+        ref: https://www.asml.com
+    press:
+    awards:
+    honors:
+
+  Barden Corporation:
+    name: Barden Corporation
+    position: Engineering Intern
+    date: 6/2015 - 8/2015
+    image: /assets/images/experiences/barden.jpg
+    page: portfolio/barden.html
+    description: Barden Corporation was my first work experience and one of the most unique as well. Barden Corporation is a ball bearing manufacturer that specializes in the design, manufacture, repair, and overhaul of aerospace and super precision ball bearings for safety-critical and harsh environment applications. My job involved working with a team of mechanical engineers to keep track of and update manufacturing documents. These included tasks such as updating blueprints to match current equipment, digitizing documents and blueprints, and reflecting engineering change notices on local databases. I was also asked to gather measurement data for particular ball bearings.
+    links:
+      - name: Barden Bearings Website
+        ref: https://www.bardenbearings.com/content.barden.us/us/index.jsp
+    press:
+    awards:
+    honors:
 
 projects:
-    Nanoscale Barcode Identification:
-        name: Nanoscale Barcode Identification
-        date: 2019
-        image: /assets/images/projects/barcode.jpg
-        summary: Research project using machine learning for DNA tagging
-        link: 
+  Nanoscale Barcode Identification:
+    name: Nanoscale Barcode Identification
+    date: 2019
+    image: /assets/images/projects/barcode.jpg
+    summary: Research project using machine learning for DNA tagging
+    page: portfolio/barcode.html
+    description: some description
+    links:
+      - name: tagging
+        ref: boo
+    press:
+    awards:
+    honors:
 
-    Quotebook:
-        name: Quotebook
-        date: 2017
-        image: /assets/images/projects/quotebook.png
-        summary: Web app built using AWS and Python Flask
-        link:
+  Quotebook:
+    name: Quotebook
+    date: 2017
+    image: /assets/images/projects/quotebook.png
+    summary: Web app built using AWS and Python Flask
+    page: portfolio/quotebook.html
+    description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment.
+    links:
+      - name: Github Repository
+        ref: https://github.com/RandyDeng/Quotebook
+    press:
+    awards:
+    honors:
 
-    Struct:
-        name: Struct
-        date: 2017
-        image: /assets/images/projects/struct.png
-        summary: HackGT project to help visualize codebases
-        link: 
+  Struct:
+    name: Struct
+    date: 2017
+    image: /assets/images/projects/struct.png
+    summary: HackGT project to help visualize codebases
+    page: portfolio/struct.html
+    description: In any team-based project, whether it be open source or for a company, it is important for new members to quickly understand what has been done and what needs to be done. But if the codebase is extremely large, it can take people weeks to understand the full structure of the application. Struct was created to help onboard new project team members by automatically illustrating the structure of a codebase in a simple and intuitive fashion. Struct is a code visualization web app that generates and displays a graph representation for any given GitHub repository. The graph displays each file as a node and links nodes together by finding related objects (e.g. classes, methods) in each file. The user can also manually tag and move nodes around to better organize the graph. This project was created by myself and two teammates for HackGT.
+    links:
+      - name: HackGT 2017 Post
+        ref: https://devpost.com/software/struct
+      - name: Github Repository
+        ref: https://github.com/ChenJonathan/Struct
+    press: 
+    awards:
+    honors:
 
-    Christmas in a Box:
-        name: Christmas in a Box
-        date: 2017
-        image: /assets/images/projects/christmasbox.jpg
-        summary: A box that helps brighten up your Christmas
-        link: 
+  Christmas in a Box:
+    name: Christmas in a Box
+    date: 2017
+    image: /assets/images/projects/christmasbox.jpg
+    summary: A box that helps brighten up your Christmas
+    page: portfolio/christmasbox.html
+    description: some description
+    links:
+      - name: tagging
+        ref: boo
+    press:
+    awards:
+    honors:
 
-    Pipelined Microarchitecture:
-        name: Pipelined Microarchitecture
-        date: 2017
-        image: /assets/images/projects/pipeline.png
-        summary: C implementation of LC3b computer architecture
-        link: 
+  Pipelined Microarchitecture:
+    name: Pipelined Microarchitecture
+    date: 2017
+    image: /assets/images/projects/pipeline.png
+    summary: C implementation of LC3b computer architecture
+    page: portfolio/pipeline.html
+    description: The LC-3b simulator is a C program that implements a 5-stage piplined microarchitecture of the LC-3b ISA. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. Programming the simulator required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. This application could be easily extended to take into account virtual memory, caching, and more.
+    links:
+      - name: Github Repository
+        ref: https://github.com/RandyDeng/PipelinedArchitecture
+    press:
+    awards:
+    honors:
 
-    randydeng.com:
-        name: randydeng.com
-        date: 2017 - Present
-        image: /assets/images/projects/website.png
-        summary: Showcasing my expertise, interests, and personality
-        link: 
+  randydeng.com:
+    name: randydeng.com
+    date: 2017 - Present
+    image: /assets/images/projects/website.png
+    summary: Showcasing my expertise, interests, and personality
+    page: portfolio/website.html
+    description: some descr.
+    links:
+      - name: My Website
+        ref: randydeng.com
+    press:
+    awards:
+    honors:
 
-    Missile Command:
-        name: Missile Command
-        date: 2016
-        image: /assets/images/projects/missile.jpg
-        summary: A microcontroller that lets you play a video game classic
-        link: 
+  Missile Command:
+    name: Missile Command
+    date: 2016
+    image: /assets/images/projects/missile.jpg
+    summary: A microcontroller that lets you play a video game classic
+    page: portfolio/missile.html
+    description: Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. I implemented this using an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler. Working on this project forced me to further develop my memory allocation and hardware debugging skills. I used a linked list to keep track of all player and enemy missiles on the screen, which meant I had to have good memory management skills if I didn't want errors to occur. Additionally, as with any embedded project, good wire management and organization was essential for smooth hardware debugging. The game featured multiple levels, multi-colored explosions, retro sound effects, high score rankings, level skipping, and more.
+    links:
+      - name: Github Repository
+        ref: https://github.com/RandyDeng/Missile_Command
+    press:
+    awards:
+    honors:
 
-    VIP Flapping Wing Research:
-        name: VIP Flapping Wing Research
-        date: 2015 - 2016
-        image: /assets/images/projects/vip-wing.jpg
-        summary: Designing and testing a mechanical wing for a mini blimp
-        link: 
-        
-    SSVEP-based BCI Research:
-        name: SSVEP-based BCI Research
-        date: 2012 - 2015
-        image: /assets/images/projects/ssvep.jpg
-        summary: Researching SSVEP brain signals using different visual stimuli and EEGs
-        link: 
-        awards:
-            - name: Connecticut Science and Engineering Fair
-              link: http://ctsciencefair.org/media/2015CS.pdf
-              description: Xerox Computer Science Awards - Senior High Finalist, Connecticut Association of Physics Teachers Award, IEEE Connecticut Section Honorable Mention (2015)
-            - name: Southern Connecticut Invitational Science & Engineering Fair
-              link: http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf
-              description: Third Place Physical Science Completed (2015)
-              articles:
-            - name: Ridgefield Press
-              link: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/
-              description: "Science symposium: Dark matter and mind reading (2014)"
-            - name: HamletHub
-              link: http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students
-              description: Teacher TV Show features outstanding RHS Science Students (2014)
-            - name: Ridgefield Now We're Talking
-              link: http://archive.theridgefieldpress.com/28800/science-students-on-education-tv/
-              description: Science students on education TV (2014)
-            - name: RHS Science Research
-              link: https://rhsresearchandinnovation.wordpress.com/
-              description: Student Perspective (2015)
+  VIP Flapping Wing Research:
+    name: VIP Flapping Wing Research
+    date: 2015 - 2016
+    image: /assets/images/projects/vip-wing.jpg
+    summary: Designing and testing a mechanical wing for a mini blimp
+    page: portfolio/gtri2.html
+    description: Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with two other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break. While my team members were in charge of designing the wing, I was in charge of collecting and analyzing data using a load cell and Kalman Filter.
+    links:
+      - name: Robosense VIP Website
+        ref: http://www.vip.gatech.edu/teams/robosense
+    press:
+    awards:
+    honors:
+
+  SSVEP-based BCI Research:
+    name: SSVEP-based BCI Research
+    date: 2012 - 2015
+    image: /assets/images/projects/ssvep.jpg
+    summary: Researching SSVEP brain signals using different visual stimuli and EEGs
+    page: portfolio/gtri2.html
+    description: some description
+    links:
+    press:
+      - name: Science symposium - Dark matter and mind reading (Ridgefield Press 2014)
+        ref: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/
+      - name: Teacher TV Show features outstanding RHS Science Students (HamletHub 2014)
+        ref: http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students
+      - name: Science students on education TV (Ridgefield Now We're Talking 2014)
+        ref: http://archive.theridgefieldpress.com/28800/science-students-on-education-tv/
+      - name: Student Perspective (RHS Science Research 2015)
+        ref: https://rhsresearchandinnovation.wordpress.com/
+    awards:
+      - name: Xerox Computer Science Awards - Senior High Finalist (CSEF 2015)
+        ref: http://ctsciencefair.org/media/2015CS.pdf
+      - name: IEEE Connecticut Section Honorable Mention (CSEF 2015)
+        ref: http://ctsciencefair.org/media/2015CS.pdf
+      - name: Connecticut Association of Physics Teachers Award (CSEF 2015)
+        ref: http://ctsciencefair.org/media/2015CS.pdf
+      - name: Third Place Physical Science Completed (SCSEF 2015)
+        ref: http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf
+    honors:

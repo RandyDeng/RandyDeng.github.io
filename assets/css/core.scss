@@ -190,13 +190,13 @@
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
-    }
 
-    img {
-        height: 20em;
-        width: 20em;
-        border-radius: $img-radius;
-        filter: $brightness;
+        img {
+            height: 20em;
+            width: 20em;
+            border-radius: $img-radius;
+            filter: $brightness;
+        }
     }
 
     .portfolio-item:hover .portfolio-title {
@@ -206,6 +206,17 @@
     .portfolio-item:hover .portfolio-overlay {
         bottom: 0;
         height: 100%;
+    }
+
+    .portfolio-resize {
+        height: 30em;
+        width: 30em;
+        border-radius: $img-radius;
+    }
+
+    .links a {
+        margin-left: 1em;
+        font-size: $small-size;
     }
 }
 

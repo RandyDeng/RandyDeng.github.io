@@ -1,0 +1,61 @@
+---
+
+layout: default
+
+---
+
+{% assign item = page.item %}
+{% assign item = site.data.portfolio.experiences[item] %}
+
+<div class="section">
+    <div class="light1">
+        <div class="portfolio-me">
+            <div class="row">
+                <div class="col-sm-6 text-right">
+                    <img src={{ item.image }} class="portfolio-resize" alt={{ exp.name }} />
+                </div>
+                <div class="col-sm-6 text-left links">
+                    {% if item.links %}
+                    <h3> Links </h3>
+                    {% for link in item.links %}
+                    <p><i class="fas fa-link"></i><a href="{{ link.ref }}">{{ link.name }}</a></p>
+                    {% endfor %}
+                    {% endif %}
+
+                    {% if item.press %}
+                    <h3> Press </h3>
+                    {% for article in item.press %}
+                    <p><i class="fas fa-newspaper"></i><a href="{{ article.ref }}">{{ article.name }}</a></p>
+                    {% endfor %}
+                    {% endif %}
+
+                    {% if item.awards %}
+                    <h3> Awards </h3>
+                    {% for award in item.awards %}
+                    <p><i class="fas fa-award"></i><a href="{{ award.ref }}">{{ award.name }}</a></p>
+                    {% endfor %}
+                    {% endif %}
+
+                    {% if item.honors %}
+                    <h3> Honors </h3>
+                    {% for honor in item.honors %}
+                    <p><i class="fas fa-medal"></i><a href="{{ honor.ref }}">{{ honor.name }}</a></p>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="light1">
+        <div class="portfolio-me">
+            <p>
+                {{ item.description }}
+            </p>
+        </div>
+    </div>
+</div>
+
+{{content}}
