@@ -126,19 +126,6 @@ projects:
     awards:
     honors:
 
-  Quotebook:
-    date: 2017
-    image: /assets/images/projects/quotebook.png
-    summary: Web app built using AWS and Python Flask
-    page: portfolio/projects/quotebook.html
-    description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment.
-    links:
-      - name: Github Repository
-        ref: https://github.com/RandyDeng/Quotebook
-    press:
-    awards:
-    honors:
-
   Struct:
     date: 2017
     image: /assets/images/projects/struct.png
@@ -154,19 +141,6 @@ projects:
     awards:
     honors:
 
-  Christmas in a Box:
-    date: 2017
-    image: /assets/images/projects/christmasbox.jpg
-    summary: A box that helps brighten up your Christmas
-    page: portfolio/projects/christmasbox.html
-    description: some description
-    links:
-      - name: tagging
-        ref: boo
-    press:
-    awards:
-    honors:
-
   Pipelined Microarchitecture:
     date: 2017
     image: /assets/images/projects/pipeline.png
@@ -176,6 +150,32 @@ projects:
     links:
       - name: Github Repository
         ref: https://github.com/RandyDeng/PipelinedArchitecture
+    press:
+    awards:
+    honors:
+
+  Quotebook:
+    date: 2017
+    image: /assets/images/projects/quotebook.png
+    summary: Web app built using AWS and Python Flask
+    page: portfolio/projects/quotebook.html
+    description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment.
+    links:
+      - name: Github Repository
+        ref: https://github.com/RandyDeng/Quotebook
+    press:
+    awards:
+    honors:
+
+  Christmas in a Box:
+    date: 2017
+    image: /assets/images/projects/christmasbox.jpg
+    summary: A box that helps brighten up your Christmas
+    page: portfolio/projects/christmasbox.html
+    description: some description
+    links:
+      - name: tagging
+        ref: boo
     press:
     awards:
     honors:
