@@ -4,45 +4,54 @@ layout: default
 
 ---
 
-{% assign name = page.item %}
-{% assign item = site.data.portfolio.experiences[name] %}
-{% if item == nil%}
-{% assign item = site.data.portfolio.projects[name] %}
+{% assign name = page.title %}
+{% assign portfolio = site.data.portfolio.experiences[name] %}
+{% if portfolio == nil%}
+{% assign portfolio = site.data.portfolio.projects[name] %}
 {% endif %}
 
 <div class="section">
     <div class="light1">
         <div class="portfolio-me">
             <div class="row">
-                <div class="col-sm-6 text-right">
-                    <img src={{ item.image }} class="portfolio-resize" alt={{ exp.name }} />
+                <div class="col-sm-6">
+                    <img src={{ portfolio.image }} class="portfolio-page img-responsive" alt={{ page.title }} />
                 </div>
-                <div class="col-sm-6 text-left links">
-                    {% if item.links %}
+                <div class="col-sm-6 text-left portfolio-info">
+                    <h3>{{ name }}</h3>
+                    {% if portfolio.position %}
+                    <p><i class="fas fa-chevron-right"></i><a class="header" >{{ portfolio.position }}</a></p>
+                    {% endif %}
+                    {% if portfolio.summary %}
+                    <p><i class="fas fa-chevron-right"></i><a class="header" >{{ portfolio.summary }}</a></p>
+                    {% endif %}
+                    <p><i class="fas fa-chevron-right"></i><a class="header" >{{ portfolio.date }}</a></p>
+                    {% if portfolio.links %}
+
                     <h3> Links </h3>
-                    {% for link in item.links %}
-                    <p><i class="fas fa-link"></i><a href="{{ link.ref }}">{{ link.name }}</a></p>
+                    {% for link in portfolio.links %}
+                    <p><i class="fas fa-link"></i><a class="links" href="{{ link.ref }}">{{ link.name }}</a></p>
                     {% endfor %}
                     {% endif %}
 
-                    {% if item.press %}
+                    {% if portfolio.press %}
                     <h3> Press </h3>
-                    {% for article in item.press %}
-                    <p><i class="fas fa-newspaper"></i><a href="{{ article.ref }}">{{ article.name }}</a></p>
+                    {% for article in portfolio.press %}
+                    <p><i class="fas fa-newspaper"></i><a class="links"  href="{{ article.ref }}">{{ article.name }}</a></p>
                     {% endfor %}
                     {% endif %}
 
-                    {% if item.awards %}
+                    {% if portfolio.awards %}
                     <h3> Awards </h3>
-                    {% for award in item.awards %}
-                    <p><i class="fas fa-award"></i><a href="{{ award.ref }}">{{ award.name }}</a></p>
+                    {% for award in portfolio.awards %}
+                    <p><i class="fas fa-award"></i><a class="links"  href="{{ award.ref }}">{{ award.name }}</a></p>
                     {% endfor %}
                     {% endif %}
 
-                    {% if item.honors %}
+                    {% if portfolio.honors %}
                     <h3> Honors </h3>
-                    {% for honor in item.honors %}
-                    <p><i class="fas fa-medal"></i><a href="{{ honor.ref }}">{{ honor.name }}</a></p>
+                    {% for honor in portfolio.honors %}
+                    <p><i class="fas fa-medal"></i><a class="links"  href="{{ honor.ref }}">{{ honor.name }}</a></p>
                     {% endfor %}
                     {% endif %}
                 </div>
@@ -54,8 +63,8 @@ layout: default
 <div class="section">
     <div class="light1">
         <div class="portfolio-me">
-            <p>
-                {{ item.description }}
+            <p class="text-left">
+                {{ portfolio.description }}
             </p>
         </div>
     </div>

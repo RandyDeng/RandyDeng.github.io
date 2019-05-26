@@ -1,7 +1,34 @@
 experiences:
+  Amazon:
+    position: Software Engineer Intern
+    date: 5/2018 - 8/2018
+    image: /assets/images/experiences/amazon.jpg
+    page: portfolio/experiences/amazon.html
+    description: some description
+    links:
+      - name: Amazon AWS Kinesis Website
+        ref: https://aws.amazon.com/kinesis/
+    press:
+    awards:
+    honors:
+
+  GTRI CIPHER:
+    position: Software Engineer Part-time, Graduate Research Assistant
+    date: 1/2018 - 5/2018, 8/2018 - 8/2019
+    image: /assets/images/experiences/gtri.png
+    page: portfolio/experiences/gtri.html
+    description: some description
+    links:
+      - name: GTRI CIPHER Website
+        ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+      - name: Apiary Project Website
+        ref: http://apiary.gtri.gatech.edu/
+    press:
+    awards:
+    honors:
+
   Georgia Tech:
-    name: Georgia Tech
-    position: Undergraduate, Graduate
+    position: Undergraduate, Graduate in ECE
     date: 8/2015 - 8/2019
     image: /assets/images/experiences/gt.jpg
     page: portfolio/experiences/gt.html
@@ -19,22 +46,7 @@ experiences:
       - name: Eta Kappa Nu (HKN) ECE Honor Society
         ref: http://hkn.gtorg.gatech.edu/index.html
 
-  GTRI CIPHER 2:
-    name: GTRI CIPHER
-    position: Graduate Research Assistant
-    date: 1/2019 - 8/2019
-    image: /assets/images/experiences/gtri.png
-    page: portfolio/experiences/gtri2.html
-    description: some description
-    links:
-      - name: GTRI CIPHER Website
-        ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
-    press:
-    awards:
-    honors:
-
   The Hive Makerspace:
-    name: The Hive Makerspace
     position: President
     date: 5/2018 - 4/2019
     image: /assets/images/experiences/thehive.jpg
@@ -61,38 +73,7 @@ experiences:
       - name: School Chair of ECE Honors Student Contributions to The Hive
         ref: https://www.ece.gatech.edu/news/621061/ece-faculty-staff-and-students-honored-2019-roger-p-webb-awards-program
 
-  Amazon:
-    name: Amazon
-    position: Software Engineer Intern
-    date: 5/2018 - 8/2018
-    image: /assets/images/experiences/amazon.jpg
-    page: portfolio/experiences/amazon.html
-    description: some description
-    links:
-      - name: Amazon AWS Kinesis Website
-        ref: https://aws.amazon.com/kinesis/
-    press:
-    awards:
-    honors:
-
-  GTRI CIPHER 1:
-    name: GTRI CIPHER
-    position: Software Engineer Student Assistant
-    date: 1/2018 - 5/2018<br>8/2018 - 12/2018
-    image: /assets/images/experiences/gtri.png
-    page: portfolio/experiences/gtri1.html
-    description: some description
-    links:
-      - name: GTRI CIPHER Website
-        ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
-      - name: Apiary Project Website
-        ref: http://apiary.gtri.gatech.edu/
-    press:
-    awards:
-    honors:
-
   EuroAvionics USA:
-    name: EuroAvionics USA
     position: Software Engineer Intern
     date: 5/2017 - 8/2017
     image: /assets/images/experiences/euroavionics.png
@@ -106,7 +87,6 @@ experiences:
     honors:
 
   ASML:
-    name: ASML
     position: Software Test Engineer Intern
     date: 5/2016 - 8/2016
     image: /assets/images/experiences/asml.jpg
@@ -120,7 +100,6 @@ experiences:
     honors:
 
   Barden Corporation:
-    name: Barden Corporation
     position: Engineering Intern
     date: 6/2015 - 8/2015
     image: /assets/images/experiences/barden.jpg
@@ -135,7 +114,6 @@ experiences:
 
 projects:
   Nanoscale Barcode Identification:
-    name: Nanoscale Barcode Identification
     date: 2019
     image: /assets/images/projects/barcode.jpg
     summary: Research project using machine learning for DNA tagging
@@ -149,7 +127,6 @@ projects:
     honors:
 
   Quotebook:
-    name: Quotebook
     date: 2017
     image: /assets/images/projects/quotebook.png
     summary: Web app built using AWS and Python Flask
@@ -163,7 +140,6 @@ projects:
     honors:
 
   Struct:
-    name: Struct
     date: 2017
     image: /assets/images/projects/struct.png
     summary: HackGT project to help visualize codebases
@@ -179,7 +155,6 @@ projects:
     honors:
 
   Christmas in a Box:
-    name: Christmas in a Box
     date: 2017
     image: /assets/images/projects/christmasbox.jpg
     summary: A box that helps brighten up your Christmas
@@ -193,7 +168,6 @@ projects:
     honors:
 
   Pipelined Microarchitecture:
-    name: Pipelined Microarchitecture
     date: 2017
     image: /assets/images/projects/pipeline.png
     summary: C implementation of LC3b computer architecture
@@ -206,22 +180,20 @@ projects:
     awards:
     honors:
 
-  My Website:
-    name: My Website
+  randydeng.com:
     date: 2017 - Present
     image: /assets/images/projects/website.png
     summary: Showcasing my expertise, interests, and personality
     page: portfolio/projects/website.html
     description: some descr.
     links:
-      - name: My Website
+      - name: randydeng.com
         ref: randydeng.com
     press:
     awards:
     honors:
 
   Missile Command:
-    name: Missile Command
     date: 2016
     image: /assets/images/projects/missile.jpg
     summary: A microcontroller that lets you play a video game classic
@@ -235,7 +207,6 @@ projects:
     honors:
 
   VIP Flapping Wing Research:
-    name: VIP Flapping Wing Research
     date: 2015 - 2016
     image: /assets/images/projects/vip-wing.jpg
     summary: Designing and testing a mechanical wing for a mini blimp
@@ -249,7 +220,6 @@ projects:
     honors:
 
   SSVEP-based BCI Research:
-    name: SSVEP-based BCI Research
     date: 2012 - 2015
     image: /assets/images/projects/ssvep.jpg
     summary: Researching SSVEP brain signals using different visual stimuli and EEGs

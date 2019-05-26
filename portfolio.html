@@ -12,16 +12,17 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
         <div class="portfolio-me">
             <h2> Professional Experiences </h2>
             {% for item in site.data.portfolio.experiences %}
+            {% assign name = item[0] %}
             {% assign exp = item[1] %}
             <a href="{{ exp.page }}">
                 <div class="portfolio-item">
-                    <img src={{ exp.image }} class="img-responsive" alt={{ exp.name }} />
+                    <img src={{ exp.image }} class="img-responsive" alt={{ name }} />
                     <div class="portfolio-title">
-                        <h3> {{ exp.name }} </h3>
+                        <h3> {{ name }} </h3>
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-description">
-                            <h3> {{ exp.name }} </h3>
+                            <h3> {{ name }} </h3>
                             <p> {{ exp.position }} </p>
                             <p> {{ exp.date }} </p>
                         </div>
@@ -38,16 +39,17 @@ subtitle: Showcasing my professional experience as a developer, leader, and inno
         <div class="portfolio-me">
             <h2> Personal Projects </h2>
             {% for item in site.data.portfolio.projects %}
+            {% assign name = item[0] %}
             {% assign project = item[1] %}
             <a href="{{ project.page }}">
                 <div class="portfolio-item">
-                    <img src={{ project.image }} class="img-responsive" alt={{ project.company }} />
+                    <img src={{ project.image }} class="img-responsive" alt={{ name }} />
                     <div class="portfolio-title">
-                        <h3> {{ project.name }} </h3>
+                        <h3> {{ name }} </h3>
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-description">
-                            <h3> {{ project.name }} </h3>
+                            <h3> {{ name }} </h3>
                             <p> {{ project.summary }} </p>
                             <p> {{ project.date }} </p>
                         </div>

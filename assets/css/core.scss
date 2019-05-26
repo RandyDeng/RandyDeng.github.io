@@ -208,16 +208,25 @@
         height: 100%;
     }
 
-    .portfolio-resize {
-        height: 30em;
-        width: 30em;
+    .portfolio-page {
+        float: right;
         border-radius: $img-radius;
     }
 
-    .links a {
-        margin-left: 1em;
+    .portfolio-info {
         font-size: $small-size;
+
+        .header {
+            margin-left: 1em;
+            color: black
+        }
+
+        .links {
+            margin-left: 1em;
+        }
     }
+
+    
 }
 
 hr.fancyline {
