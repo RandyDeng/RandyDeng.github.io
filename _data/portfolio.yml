@@ -135,7 +135,7 @@ projects:
     links:
       - name: HackGT 2017 Post
         ref: https://devpost.com/software/struct
-      - name: Github Repository
+      - name: Github
         ref: https://github.com/ChenJonathan/Struct
     press: 
     awards:
@@ -148,7 +148,7 @@ projects:
     page: portfolio/projects/pipeline.html
     description: The LC-3b simulator is a C program that implements a 5-stage piplined microarchitecture of the LC-3b ISA. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. Programming the simulator required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. This application could be easily extended to take into account virtual memory, caching, and more.
     links:
-      - name: Github Repository
+      - name: Github
         ref: https://github.com/RandyDeng/PipelinedArchitecture
     press:
     awards:
@@ -161,7 +161,7 @@ projects:
     page: portfolio/projects/quotebook.html
     description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment.
     links:
-      - name: Github Repository
+      - name: Github
         ref: https://github.com/RandyDeng/Quotebook
     press:
     awards:
@@ -185,10 +185,11 @@ projects:
     image: /assets/images/projects/website.png
     summary: Showcasing my expertise, interests, and personality
     page: portfolio/projects/website.html
-    description: some descr.
     links:
       - name: randydeng.com
-        ref: randydeng.com
+        ref: /
+      - name: Github
+        ref: https://github.com/RandyDeng/RandyDeng.github.io
     press:
     awards:
     honors:
@@ -198,9 +199,8 @@ projects:
     image: /assets/images/projects/missile.jpg
     summary: A microcontroller that lets you play a video game classic
     page: portfolio/projects/missile.html
-    description: Missile Command is a well-known classic arcade game that involves protecting cities by shooting incoming missiles. I implemented this using an mbed kit (consisting of an LCD screen, push buttons, accelerometer, speaker, etc) and online mbed C compiler. Working on this project forced me to further develop my memory allocation and hardware debugging skills. I used a linked list to keep track of all player and enemy missiles on the screen, which meant I had to have good memory management skills if I didn't want errors to occur. Additionally, as with any embedded project, good wire management and organization was essential for smooth hardware debugging. The game featured multiple levels, multi-colored explosions, retro sound effects, high score rankings, level skipping, and more.
     links:
-      - name: Github Repository
+      - name: Github
         ref: https://github.com/RandyDeng/Missile_Command
     press:
     awards:
@@ -211,7 +211,6 @@ projects:
     image: /assets/images/projects/vip-wing.jpg
     summary: Designing and testing a mechanical wing for a mini blimp
     page: portfolio/projects/vip.html
-    description: Vertically Integraded Projects (VIP) is a program that allows undergraduate students earn academic credits, while faculty and graduate students benefit from the design efforts of their teams. As part of the RoboSense subteam, I worked together with two other students on designing and testing a miniature wing for use on a blimp. The wings could not exceed 5 grams (for both wings) and needed to be strong enough to not break. While my team members were in charge of designing the wing, I was in charge of collecting and analyzing data using a load cell and Kalman Filter.
     links:
       - name: Robosense VIP Website
         ref: http://www.vip.gatech.edu/teams/robosense
@@ -224,8 +223,13 @@ projects:
     image: /assets/images/projects/ssvep.jpg
     summary: Researching SSVEP brain signals using different visual stimuli and EEGs
     page: portfolio/projects/bci.html
-    description: some description
     links:
+      - name: ASPEN Lab
+        ref: https://sites.google.com/vcu.edu/aspenlab
+      - name: Research Report
+        ref: /assets/files/The Effect of Different Sized Checkerboard Stimuli on SSVEP.pdf
+      - name: Github
+        ref: https://github.com/RandyDeng/SSVEP-BCI-Research
     press:
       - name: Science symposium - Dark matter and mind reading (Ridgefield Press 2014)
         ref: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/

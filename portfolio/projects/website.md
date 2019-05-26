@@ -1,4 +1,10 @@
-# [randydeng.com](randydeng.com)
+---
+
+layout: portfolio_page
+background: portfolio
+title: randydeng.com
+
+---
 
 My website is here to primarily showcase who I am as a person and act as an interactive resume of sorts. It allows me to express my values and thoughts and establish myself in my own little corner of the internet.
 

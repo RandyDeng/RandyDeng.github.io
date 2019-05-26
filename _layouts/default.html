@@ -14,13 +14,14 @@ layout: base
 
 {{ content }}
 
+<!-- Footer -->
 <div class="section">
     <div class="footer">
         <h2>Keep In Touch</h2>
         <p>I'm always down to grab some lunch and chat</p>
         <hr class="fancyline">
 
-        <nav class="navbar">
+        <div class="navbar">
             <ul class="nav navbar-nav navbar-small">
                 {% for nav in site.data.navigation %}
                 <li>
@@ -28,7 +29,7 @@ layout: base
                 </li>
                 {% endfor %}
             </ul>
-        </nav>
+        </div>
         <div class="footer-media">
             {% include media.html %}
         </div>
