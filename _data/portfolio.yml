@@ -4,7 +4,6 @@ experiences:
     date: 5/2018 - 8/2018
     image: /assets/images/experiences/amazon.jpg
     page: portfolio/experiences/amazon.html
-    description: some description
     links:
       - name: Amazon AWS Kinesis Website
         ref: https://aws.amazon.com/kinesis/
@@ -17,7 +16,6 @@ experiences:
     date: 1/2018 - 5/2018, 8/2018 - 8/2019
     image: /assets/images/experiences/gtri.png
     page: portfolio/experiences/gtri.html
-    description: some description
     links:
       - name: GTRI CIPHER Website
         ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
@@ -32,7 +30,6 @@ experiences:
     date: 8/2015 - 8/2019
     image: /assets/images/experiences/gt.jpg
     page: portfolio/experiences/gt.html
-    description: some description
     links:
       - name: Georgia Tech Website
         ref: https://www.gatech.edu/
@@ -51,7 +48,6 @@ experiences:
     date: 5/2018 - 4/2019
     image: /assets/images/experiences/thehive.jpg
     page: portfolio/experiences/thehive.html
-    description: some description
     links:
       - name: The Hive Website
         ref: https://hive.ece.gatech.edu/
@@ -78,7 +74,6 @@ experiences:
     date: 5/2017 - 8/2017
     image: /assets/images/experiences/euroavionics.png
     page: portfolio/experiences/euroavionics.html
-    description: Working with EuroAvionics has been one of the most challenging and rewarding experience thus far. As a software engineering intern, my team was tasked to develop a full stack data acquisition and monitoring system to be used on airborne vehicles. My work involved working closely with the Linux Kernel to communicate through SMS, WLAN, and LTE in addition to using several network protocols to communicate with servers and aircraft systems. A front-end containing configuration options, Java back-end, and custom aircraft hardware were some of the core components of our system. Ensuring that the whole system worked in a cohesive manner challenged me to make design choices that fulfilled all necessary requirements while keeping code structured and organized.
     links:
       - name: EuroAvionics Website
         ref: https://www.euroavionics.com/
@@ -91,7 +86,6 @@ experiences:
     date: 5/2016 - 8/2016
     image: /assets/images/experiences/asml.jpg
     page: portfolio/experiences/asml.html
-    description: Working at ASML challenged me to adapt. During my three month internship, I was required to work with a variety of data analysis tools, data acquisition tools, and hardware modules that I had never seen before. Using LabView, I created an application that enabled other engineers to quickly acquire data from a variety of different hardware modules (analog/digital IO, accelerometer sensors, temperature sensors, etc). This saved many days worth of effort since many of the machines were inside a clean room. My biggest feeling of achievement this summer was when the application I created was used to help debug a wiring issue in another machine.
     links:
       - name: ASML Website
         ref: https://www.asml.com
@@ -104,7 +98,6 @@ experiences:
     date: 6/2015 - 8/2015
     image: /assets/images/experiences/barden.jpg
     page: portfolio/experiences/barden.html
-    description: Barden Corporation was my first work experience and one of the most unique as well. Barden Corporation is a ball bearing manufacturer that specializes in the design, manufacture, repair, and overhaul of aerospace and super precision ball bearings for safety-critical and harsh environment applications. My job involved working with a team of mechanical engineers to keep track of and update manufacturing documents. These included tasks such as updating blueprints to match current equipment, digitizing documents and blueprints, and reflecting engineering change notices on local databases. I was also asked to gather measurement data for particular ball bearings.
     links:
       - name: Barden Bearings Website
         ref: https://www.bardenbearings.com/content.barden.us/us/index.jsp
@@ -118,7 +111,6 @@ projects:
     image: /assets/images/projects/barcode.jpg
     summary: Research project using machine learning for DNA tagging
     page: portfolio/projects/barcode.html
-    description: some description
     links:
       - name: tagging
         ref: boo
@@ -131,7 +123,6 @@ projects:
     image: /assets/images/projects/struct.png
     summary: HackGT project to help visualize codebases
     page: portfolio/projects/struct.html
-    description: In any team-based project, whether it be open source or for a company, it is important for new members to quickly understand what has been done and what needs to be done. But if the codebase is extremely large, it can take people weeks to understand the full structure of the application. Struct was created to help onboard new project team members by automatically illustrating the structure of a codebase in a simple and intuitive fashion. Struct is a code visualization web app that generates and displays a graph representation for any given GitHub repository. The graph displays each file as a node and links nodes together by finding related objects (e.g. classes, methods) in each file. The user can also manually tag and move nodes around to better organize the graph. This project was created by myself and two teammates for HackGT.
     links:
       - name: HackGT 2017 Post
         ref: https://devpost.com/software/struct
@@ -146,10 +137,13 @@ projects:
     image: /assets/images/projects/pipeline.png
     summary: C implementation of LC3b computer architecture
     page: portfolio/projects/pipeline.html
-    description: The LC-3b simulator is a C program that implements a 5-stage piplined microarchitecture of the LC-3b ISA. The simulator itself is a modified version of Professor Yale Patt's course at UT Austin, but the functionality of each piplined stage was coded solely by myself. Programming the simulator required thorough knowledge of the ISA as well as proper organization of code. For example, the pipeline code cannot run each stage of the pipeline in parallel. Instead, the code must account for this by processing later stages first. This application could be easily extended to take into account virtual memory, caching, and more.
     links:
       - name: Github
         ref: https://github.com/RandyDeng/PipelinedArchitecture
+      - name: LC-3b Architecture
+        ref: /assets/files/lc_3b_architecture.pdf
+      - name: LC-3b ISA
+        ref: /assets/files/lc_3b_isa.pdf
     press:
     awards:
     honors:
@@ -159,7 +153,6 @@ projects:
     image: /assets/images/projects/quotebook.png
     summary: Web app built using AWS and Python Flask
     page: portfolio/projects/quotebook.html
-    description: Quotebook is a private web application that allows users to share quotes with each other. I developed this application to share quotes among my friend group and record any funny things we might have said. Users can add, edit, and delete their own quotes as well as view any quotes that are shared with them by other users. Since this is a private quotebook, only I can control the number of users, but a guest account is available and my code is available on Github. The application is developed using Amazon Web Service's DynamoDB for data storage, EC2 to host my Python Flask server, and Nginx and uWSGI for deployment.
     links:
       - name: Github
         ref: https://github.com/RandyDeng/Quotebook
@@ -172,7 +165,6 @@ projects:
     image: /assets/images/projects/christmasbox.jpg
     summary: A box that helps brighten up your Christmas
     page: portfolio/projects/christmasbox.html
-    description: some description
     links:
       - name: tagging
         ref: boo

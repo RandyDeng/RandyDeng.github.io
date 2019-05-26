@@ -211,7 +211,7 @@
 .portfolio-page {
     display: inline-block;
     max-width: 80em;
-    padding: 1em 0 3em 0;
+    padding: 1em 3em 3em 3em;
 
     .portfolio-info {
         font-size: $small-size;
@@ -227,7 +227,7 @@
     
         img {
             margin: 2em 0 2em 0;
-            float: right;
+            display: inline-block;
             border-radius: $img-radius;
         }
     }
