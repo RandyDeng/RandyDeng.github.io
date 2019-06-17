@@ -1,5 +1,40 @@
-default:
-    root: \
-sass:
-    sass_dir: _sass
-    style: compressed
+# General settings
+title: Randy Deng
+author: Shoot me an email!
+email: randy@randydeng.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I'm always looking to work on new and exciting projects. Need something built? Or just want to chat? Leave me a message and I'll get back to you as soon as I can.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social MEdia
+linkedin_username: randydeng
+github_username: randydeng
+rss: subscribe
+
+# Header pages
+header_pages:
+  - work.md
+  - blog.md
+  - resume.md
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  
+# Blog
+show_excerpts: true
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

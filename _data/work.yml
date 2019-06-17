@@ -1,0 +1,163 @@
+Amazon:
+  summary: Software Engineer Intern for AWS Kinesis
+  date: 5/2018 - 8/2018
+  image: /assets/images/work/amazon.jpg
+  page: amazon
+  links:
+    - name: AWS Kinesis Website
+      ref: https://aws.amazon.com/kinesis/
+  press:
+  awards:
+  honors:
+
+GTRI CIPHER:
+  summary: Software Engineer Part-time, Graduate Research Assistant
+  date: 1/2018 - 5/2018, 8/2018 - 8/2019
+  image: /assets/images/work/gtri.png
+  page: gtri
+  links:
+    - name: GTRI CIPHER Website
+      ref: https://gtri.gatech.edu/laboratories/cybersecurity-information-protection-and-hardware-evaluation-research
+    - name: Apiary Project Website
+      ref: http://apiary.gtri.gatech.edu/
+  press:
+  awards:
+  honors:
+
+Georgia Tech:
+  summary: B.S. and M.S. in Computer Engineering
+  date: 8/2015 - 8/2019
+  image: /assets/images/work/gt.jpg
+  page: gt
+  links:
+    - name: Georgia Tech Website
+      ref: https://www.gatech.edu/
+  press:
+    - name: Georgia Tech Opens New Makerspace (2018)
+      ref: https://www.news.gatech.edu/2018/09/27/georgia-tech-opens-newest-student-makerspace
+  awards:
+  honors:
+    - name: Georgia Tech Highest Honors (2015 - 2019)
+      ref: http://www.commencement.gatech.edu/sites/default/files/documents/n19c10502d-commencement-prog-fall_0.pdf
+    - name: Eta Kappa Nu (HKN) ECE Honor Society (2016 - 2019)
+      ref: http://hkn.gtorg.gatech.edu/index.html
+
+The Hive Makerspace:
+  summary: Lead and founded nations largest student run electronics makerspace
+  date: 5/2018 - 4/2019
+  image: /assets/images/work/thehive.jpg
+  page: thehive
+  links:
+    - name: The Hive Website
+      ref: https://hive.ece.gatech.edu/
+    - name: Van Leer Interdisciplinary Design Commons
+      ref: https://www.ece.gatech.edu/interdisciplinary-design-commons
+  press:
+    - name: ECE Themed Makerspace Opens in Van Leer (2018)
+      ref: http://nique.net/news/2018/10/16/ece-themed-makerspace-opens-in-van-leer/
+    - name: Interdisciplinary Design Commons Dedication Speeches (2018)
+      ref: https://mediaspace.gatech.edu/media/IDC+Dedication+%28Sept.+27%2C+2018%29/1_imwkixoi
+    - name: Georgia Tech Opens Newest Makerspace (2018)
+      ref: https://www.news.gatech.edu/2018/09/27/georgia-tech-opens-newest-student-makerspace
+    - name: New Student Makerspace at Georgia Tech (2018)
+      ref: https://www.ece.gatech.edu/news/612063/georgia-tech-opens-newest-student-makerspace
+    - name: Georgia Tech Students Collaborate with Lime (2019)
+      ref: https://www.li.me/second-street/atlanta-upcycling-lime-georgia-tech-students-new-life-scooters
+  awards:
+  honors:
+    - name: School Chair of ECE Honors Student Contributions to The Hive (2019)
+      ref: https://www.ece.gatech.edu/news/621061/ece-faculty-staff-and-students-honored-2019-roger-p-webb-awards-program
+
+Nanoscale Barcode Identification:
+  date: 2019
+  image: /assets/images/work/barcode.jpg
+  summary: Research project using machine learning for DNA tagging
+  page: barcode
+  links:
+  press:
+  awards:
+  honors:
+
+EuroAvionics USA:
+  summary: Developed software for airborne vehicles
+  date: 5/2017 - 8/2017
+  image: /assets/images/work/euroavionics.png
+  page: euroavionics
+  links:
+    - name: EuroAvionics Website
+      ref: https://www.euroavionics.com/
+  press:
+  awards:
+  honors:
+
+randydeng.com:
+  date: 2017 - Present
+  image: /assets/images/work/website.png
+  summary: Showcasing my expertise, interests, and personality
+  page: website
+  links:
+    - name: randydeng.com
+      ref: /
+    - name: Github
+      ref: https://github.com/RandyDeng/RandyDeng.github.io
+  press:
+  awards:
+  honors:
+
+Quotebook:
+  date: 2017
+  image: /assets/images/work/quotebook.png
+  summary: Web app built using AWS and Python Flask
+  page: quotebook
+  links:
+    - name: Github
+      ref: https://github.com/RandyDeng/Quotebook
+  press:
+  awards:
+  honors:
+
+Christmas in a Box:
+  date: 2017
+  image: /assets/images/work/christmasbox.jpg
+  summary: A box that helps brighten up your Christmas
+  page: christmasbox
+  links:
+    - name: Christmas Box Patterns
+      ref: /assets/files/christmas_box_patterns.mp4
+    - name: Christmas Box Inside
+      ref: /assets/files/christmas_box_inside.mp4
+  press:
+  awards:
+  honors:
+
+SSVEP-based BCI Research:
+  date: 2012 - 2015
+  image: /assets/images/work/ssvep.jpg
+  summary: Researching SSVEP brain signals using different visual stimuli and EEGs
+  page: bci
+  links:
+    - name: ASPEN Lab Website
+      ref: https://sites.google.com/vcu.edu/aspenlab
+    - name: Research Report
+      ref: /assets/files/The Effect of Different Sized Checkerboard Stimuli on SSVEP.pdf
+    - name: Github
+      ref: https://github.com/RandyDeng/SSVEP-BCI-Research
+  press:
+    - name: Science symposium - Dark matter and mind reading (Ridgefield Press 2014)
+      ref: https://archive.theridgefieldpress.com/29882/science-symposium-dark-matter-and-mind-reading/
+    - name: Teacher TV Show features outstanding RHS Science Students (HamletHub 2014)
+      ref: http://news.hamlethub.com/ridgefield/life/42879-teacher-tv-show-features-outstanding-rhs-science-students
+    - name: Science students on education TV (Ridgefield Now We're Talking 2014)
+      ref: http://archive.theridgefieldpress.com/28800/science-students-on-education-tv/
+    - name: Student Perspective (RHS Science Research 2015)
+      ref: https://rhsresearchandinnovation.wordpress.com/
+  awards:
+    - name: Xerox Computer Science Awards - Senior High Finalist (CSEF 2015)
+      ref: http://ctsciencefair.org/media/2015CS.pdf
+    - name: IEEE Connecticut Section Honorable Mention (CSEF 2015)
+      ref: http://ctsciencefair.org/media/2015CS.pdf
+    - name: Connecticut Association of Physics Teachers Award (CSEF 2015)
+      ref: http://ctsciencefair.org/media/2015CS.pdf
+    - name: Third Place Physical Science Completed (SCSEF 2015)
+      ref: http://ctstemfoundation.org/wp-content/uploads/2015/01/2015-SCSEF-program-booklet.pdf
+  honors:

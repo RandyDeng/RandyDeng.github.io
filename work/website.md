@@ -1,4 +1,9 @@
-# [randydeng.com](randydeng.com)
+---
+layout: work_page
+title: randydeng.com
+data: work
+permalink: /work/website
+---
 
 My website allows me to express who I am as a person and also establishes myself in my own little corner of the internet. Updating my website has become a hobby of mine as it allows me to try new and emerging technologies while stimulating my creative side through web design.
 

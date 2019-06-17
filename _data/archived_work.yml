@@ -1,0 +1,78 @@
+ASML:
+  summary: Software Test Engineer Intern
+  date: 5/2016 - 8/2016
+  image: /assets/images/work/asml.jpg
+  page: asml
+  links:
+    - name: ASML Website
+      ref: https://www.asml.com
+  press:
+  awards:
+  honors:
+
+Struct:
+  date: 2017
+  image: /assets/images/work/struct.png
+  summary: HackGT project to help visualize codebases
+  page: struct
+  links:
+    - name: HackGT 2017 Post
+      ref: https://devpost.com/software/struct
+    - name: Github
+      ref: https://github.com/ChenJonathan/Struct
+  press: 
+  awards:
+  honors:
+
+Pipelined Microarchitecture:
+  date: 2017
+  image: /assets/images/work/pipeline.png
+  summary: C implementation of LC3b computer architecture
+  page: pipeline
+  links:
+    - name: Github
+      ref: https://github.com/RandyDeng/PipelinedArchitecture
+    - name: LC-3b Architecture
+      ref: /assets/files/lc_3b_architecture.pdf
+    - name: LC-3b ISA
+      ref: /assets/files/lc_3b_isa.pdf
+  press:
+  awards:
+  honors:
+
+Missile Command:
+  date: 2016
+  image: /assets/images/work/missile.jpg
+  summary: A microcontroller that lets you play a video game classic
+  page: missile
+  links:
+    - name: Github
+      ref: https://github.com/RandyDeng/Missile_Command
+  press:
+  awards:
+  honors:
+
+VIP Flapping Wing Research:
+  date: 2015 - 2016
+  image: /assets/images/work/vip-wing.jpg
+  summary: Designing and testing a mechanical wing for a mini blimp
+  page: vip
+  links:
+    - name: Robosense VIP Website
+      ref: http://www.vip.gatech.edu/teams/robosense
+  press:
+  awards:
+  honors:
+
+Barden Corporation:
+  summary: Engineering Intern
+  date: 6/2015 - 8/2015
+  image: /assets/images/work/barden.jpg
+  page: barden
+  links:
+    - name: Barden Bearings Website
+      ref: https://www.bardenbearings.com/content.barden.us/us/index.jsp
+  press:
+  awards:
+  honors:
+

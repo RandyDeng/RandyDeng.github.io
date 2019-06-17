@@ -1,0 +1,25 @@
+
+@for $i from 1 through 50 {
+    .animate-tiles {
+        &:nth-child(#{$i}) {
+            animation: fadein 0.5s;
+            animation-delay: $i * 0.15s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+    }
+}
+
+.animate-fadein {
+    animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

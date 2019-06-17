@@ -1,39 +1,20 @@
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-layout: base
+  {%- include head.html -%}
 
----
+  <body>
 
-<!-- Header Image -->
-<div class="section">
-    <div class="banner {{ page.background }}">
-        <h1> {{ page.title }} </h1>
-        <h3> {{ page.subtitle }} </h3>
-    </div>
-</div>
+    {%- include header.html -%}
 
-{{ content }}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-<!-- Footer -->
-<div class="section">
-    <div class="footer">
-        <h2>Keep In Touch</h2>
-        <p>I'm always down to grab some lunch and chat</p>
-        <hr class="fancyline">
+    {%- include footer.html -%}
 
-        <div class="navbar">
-            <ul class="nav navbar-nav navbar-small">
-                {% for nav in site.data.navigation %}
-                <li>
-                    <a href={{ nav.link }}> {{ nav.name }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="footer-media">
-            {% include media.html %}
-        </div>
+  </body>
 
-        <div class="text-center">© 2017 - 2019 Copyright Randy Deng</div>
-    </div>
-</div>
+</html>

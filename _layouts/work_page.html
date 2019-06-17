@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<article class="post animate-fadein">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+
+    {% capture work_type %}{{ page.data }}{% endcapture %}
+    {% capture work_page %}{{ page.title }}{% endcapture %}
+    {% assign work = site.data[work_type][work_page] %}
+    <div>
+        <h2> {{ work.summary }} ({{ work.date }}) </h2>
+    </div>
+
+    <div class="portfolio-split">
+        <div class="portfolio-left">
+            <img src={{ work.image }} alt={{ work.title }} />
+        </div>
+        <div class="portfolio-right">
+            {% if work.links %}
+            <div class="links">
+                <h3> Links </h3>
+                {% for link in work.links %}
+                {% if link.name contains "Github" %}
+                <p><i class="fab fa-github"></i><a href="{{ link.ref }}">{{ link.name }}</a></p>
+                {% elsif link.name contains "Website" %}
+                <p><i class="fas fa-globe"></i><a href="{{ link.ref }}">{{ link.name }}</a></p>
+                {% else %}
+                <p><i class="fas fa-link"></i><a href="{{ link.ref }}">{{ link.name }}</a></p>
+                {% endif %}
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if work.press %}
+            <div class="links">
+                <h3> Press </h3>
+                {% for article in work.press %}
+                <p><i class="fas fa-newspaper"></i><a href="{{ article.ref }}">{{ article.name }}</a>
+                </p>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if work.awards %}
+            <div class="links">
+                <h3> Awards </h3>
+                {% for award in work.awards %}
+                <p><i class="fas fa-award"></i><a href="{{ award.ref }}">{{ award.name }}</a></p>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% if work.honors %}
+            <div class="links">
+                <h3> Honors </h3>
+                {% for honor in work.honors %}
+                <p><i class="fas fa-medal"></i><a href="{{ honor.ref }}">{{ honor.name }}</a></p>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="post-content">
+        {{ content }}
+    </div>
+
+</article>
