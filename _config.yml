@@ -1,13 +1,13 @@
 # General settings
 title: Randy Deng
-author: Shoot me an email!
+author: Randy Deng
 email: randy@randydeng.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm always looking to work on new and exciting projects. Need something built? Or just want to chat? Leave me a message and I'll get back to you as soon as I can.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.randydeng.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Social MEdia
+# Social Media
 linkedin_username: randydeng
 github_username: randydeng
 rss: subscribe
@@ -23,6 +23,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+disqus:
+  shortname: randydeng
   
 # Blog
 show_excerpts: true
