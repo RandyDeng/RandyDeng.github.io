@@ -10,7 +10,8 @@ url: "https://www.randydeng.com" # the base hostname & protocol for your site, e
 # Social Media
 linkedin_username: randydeng
 github_username: randydeng
-rss: subscribe
+rss: /feed.xml
+mailchimp: http://eepurl.com/gvlxjv
 
 # Header pages
 header_pages:
