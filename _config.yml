@@ -8,8 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.randydeng.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social Media
-linkedin_username: randydeng
-github_username: randydeng
+linkedin: randydeng
+github: randydeng
 rss: /feed.xml
 mailchimp: http://eepurl.com/gvlxjv
 
