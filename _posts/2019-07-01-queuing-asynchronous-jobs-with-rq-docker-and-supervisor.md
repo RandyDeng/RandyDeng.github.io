@@ -17,6 +17,7 @@ When building an application, you'll often find that you need to run a lot of ta
 This is where queuing systems come in. Queuing systems provide a framework that allow you to submit these tasks as jobs, which are then executed by workers. The workers all run independently, meaning the jobs are completed asynchronously, resulting in faster and cleaner processing. When complete, the results can be retrieved through the job. This process is shown in the diagram below:
 
 ![queue_system](/assets/posts/queue_system.png)
+
 *Diagram of how a simple queuing system works*
 
 ## RQ
@@ -27,6 +28,7 @@ For our purposes though, we will be using [RQ](https://python-rq.org/). RQ is a 
 In addition to RQ, we will also be using [RQ dashboard](https://github.com/eoranged/rq-dashboard). This will allow us to see everything about our system including jobs in the queues, worker details, and any errors that occur.
 
 ![queue_system](/assets/posts/rq_dashboard.png)
+
 *An example RQ dashboard web page showing queue information*
 
 If you cloned the repository, you'll notice that all of the components needed to create your system are already implemented! As you might have guessed, the `rq-dashboard` folder is what handles the dashboard creation. In the `workers` folder, you'll see `settings.py` and `supervisord.conf`. `settings.py` tells the workers which database and queues to connect to and `supervisord.conf` is a supervisor configuration file (see supervisor section).
