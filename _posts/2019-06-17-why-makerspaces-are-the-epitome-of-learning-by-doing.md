@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Makerspaces are the Eptiome of Learning by Doing"
+title: "Why Makerspaces are the Epitome of Learning by Doing"
 categories: makerspace
 ---
 
