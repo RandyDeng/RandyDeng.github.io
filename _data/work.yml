@@ -1,11 +1,27 @@
+Citadel:
+  summary: Software Engineer
+  date: 3/2022 - Present
+  image: /assets/images/work/citadel.png
+  page: citadel
+  links:
+    - name: Citadel Website
+      ref: https://www.citadel.com
+  press:
+  awards:
+  honors:
+
 Amazon:
-  summary: Software Developer Engineer
-  date: 5/2018 - 8/2018, 8/2019 - Present
+  summary: Software Developer Engineer II
+  date: 5/2018 - 8/2018, 8/2019 - 3/2022
   image: /assets/images/work/amazon.jpg
   page: amazon
   links:
     - name: AWS Kinesis Website
       ref: https://aws.amazon.com/kinesis/
+    - name: AWS Kinesis OnDemand
+      ref: https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-kinesis-data-streams-on-demand/
+    - name: UpdateShardCount Limit Increase
+      ref: https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-kinesis-data-streams-now-supports-scaling-up-to-10000-mbs-throughput-with-a-single-api-call/
   press:
   awards:
   honors:
