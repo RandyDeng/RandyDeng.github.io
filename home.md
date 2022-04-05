@@ -9,14 +9,15 @@ My favorite part of being a software developer is building systems that solve pr
 
 Big or small, I seek to solve problems that have an impact. I have...
 
-- Developed cloud-related features for [Amazon AWS Kinesis](/work/amazon)
+- Redesigned and developed financial systems for [Citadel](/work/citadel)
+- Developed highly available and highly scalable features for [Amazon AWS Kinesis](/work/amazon)
 - Developed malware analysis and aggregation tools at [GTRI CIPHER](/work/gtri)
 - Founded and lead [The Hive](/work/thehive), the nations largest student-run electronics makerspace
 - Designed and created software for airborne vehicles at [EuroAvionics](/work/euroavionics)
 - Researched machine learning classification methods to [identify nanoscale barcodes](/work/barcode)
 - Completed my Bachelors and Masters in Computer Engineering at [Georgia Tech](/work/gt)
 
-Outside of work, I enjoy stargazing, reading, and watching anime.
+Outside of work, I enjoy walking/sightseeing, hanging out with friends, reading, and watching anime.
 
 Interested in working with me?
 [Send an email](mailto:{{ site.email }})
