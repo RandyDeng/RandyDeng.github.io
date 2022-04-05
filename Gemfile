@@ -11,3 +11,5 @@ gem "jekyll", "~> 3.8"
 gem "jekyll-theme-minima", "~> 0.1.1"
 
 gem "jekyll-sitemap", "~> 1.3"
+
+gem "kramdown-parser-gfm"
