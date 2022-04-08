@@ -18,9 +18,11 @@ Amazon:
   links:
     - name: AWS Kinesis Website
       ref: https://aws.amazon.com/kinesis/
-    - name: AWS Kinesis OnDemand
+    - name: New Enhanced Fanout Feature
+      ref: https://aws.amazon.com/about-aws/whats-new/2018/08/stream_data_65_faster_with_5x_higher_fan_out_using_new_kinesis_data_streams_features/
+    - name: Announcing Amazon Kinesis Data Streams On-Demand
       ref: https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-kinesis-data-streams-on-demand/
-    - name: UpdateShardCount Limit Increase
+    - name: UpdateShardCount Limit Increase to 10,000
       ref: https://aws.amazon.com/about-aws/whats-new/2020/03/amazon-kinesis-data-streams-now-supports-scaling-up-to-10000-mbs-throughput-with-a-single-api-call/
   press:
   awards:
